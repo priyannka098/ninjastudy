@@ -1,0 +1,17 @@
+.navbar-bg {
+    background-color: white !important;
+}
+
+.nav-in {
+    background-color: white;
+}
+
+.remove-flex-grow{
+    flex-grow: unset;
+    margin-right:50px;
+}
+.img-txt-box{
+    display:flex;
+    align-items: center;
+    
+}

@@ -1,0 +1,33 @@
+.card-style {
+    margin: 1em;
+    width: 19rem;
+    height: 22rem;
+}
+
+.bg-color-feedback{
+    background-color: rgb(210, 217, 226);
+    height:40rem;
+    width:100%;
+}
+
+.center {
+    justify-content: center;
+}
+
+.button-style{
+    border-radius: 10rem;
+    height:3rem;
+    width:3rem;
+    border: none !important;
+}
+.car-btn{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    
+    
+}
+.font-height-feedback{
+    font-size:3rem;
+    padding:2rem;
+}

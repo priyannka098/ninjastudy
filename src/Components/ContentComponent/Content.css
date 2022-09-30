@@ -1,0 +1,59 @@
+
+.bg-color-first{
+    background-color:#1045a0a2;
+    height:800px;
+    width:100%;
+}
+.bg-color-sec{
+    background-color: white;
+    height:600px;
+    width:100%;
+}
+
+.gplay-img {
+    max-height: 200px;
+    max-width: 250px; 
+}
+.play-button{
+    background: transparent;
+    border: none;
+    font-size: 20px;
+}
+
+.buttons-div{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 70%;
+}
+
+.top-space-50{
+    margin-top: 30px;
+}
+
+.mobile-img {
+    width: 300px;
+    height: 500px;
+}
+.firstflexbox{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-top: 70px !important;
+}
+
+.text-font{
+    font-family: "Segoe UI",Roboto,"Helvetica Neue","Noto Sans","Liberation Sans",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+    font-size: 20px;
+}
+.secondflexbox{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+   
+
+}
+.style-text{
+    margin-right:50px;
+}

@@ -1,0 +1,60 @@
+.faq-image{
+    height:20rem;
+    width:10rem;
+    display: flex;
+    align-items: center;
+}
+.font-height{
+    font-size:3rem;
+    
+    padding:2rem;
+}
+.top-level-container{
+    background-color: white;
+    width:100%;
+    display:flex;
+    align-items: center;
+    flex-direction: column;
+    height:40rem;
+}
+.heading-box1{
+    padding:3rem;
+    text-align: center;
+    
+}
+.outerbox2{
+    width:45rem;
+    
+}
+.img-txt-box{
+    display:flex;
+    flex-direction: row;
+    width: 80%;
+    justify-content: space-between;
+    
+
+}
+.faq-image2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.accor-body{
+    background-color: rgb(112, 112, 231);
+    /* height:10rem; */
+    color:white;
+
+}
+.accor-head{
+    --bs-accordion-active-bg: rgb(112, 112, 231);
+    --bs-accordion-active-color: white;
+    color:black;
+    border:1px solid rgb(228, 214, 214);
+    height: 5rem;
+}
+
+.accor-item{
+    margin-bottom: 1rem;
+    background-color: rgb(112, 112, 231);
+}

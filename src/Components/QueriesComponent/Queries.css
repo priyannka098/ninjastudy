@@ -1,0 +1,62 @@
+.bg-color-third{
+    background-color: rgb(210, 217, 226);
+    height:35rem;
+    width:100%;
+
+
+}
+.text-center{
+    text-align: center;
+    
+}
+.font-height1{
+    font-size:3rem;
+    padding:2rem;
+    font-weight: 500;
+}
+.heading-box2{
+    padding: 3rem;
+    text-align: center;
+
+}
+.askbox1{
+    display:flex;
+    flex-direction: row;;
+}
+.askbox2{
+    display:flex;
+    flex-direction: row!important;
+margin-top: 2rem;
+}
+
+.input-box{
+    width: 18rem;
+    height: 3rem;
+    border-radius: 5px;
+    border: 1px solid black;
+    background-color: rgb(210, 217, 226);
+    padding: 8px;
+    margin-top: 10px;
+}
+.textarea1
+{
+    border-radius: 5px;
+    border: 1px solid black;
+    background-color: rgb(210, 217, 226);
+    padding: 8px;
+    width: 30rem;
+}
+.textarea-div{
+    width: 75%;
+}
+.submit{
+    width: 25%;
+    display: flex;
+    align-items: end;
+    padding: 5px;
+}
+
+.submit-btn{
+    width: 8rem;
+    border-radius: 3rem;
+}
