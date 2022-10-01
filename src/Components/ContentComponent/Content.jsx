@@ -9,10 +9,10 @@ function Content()
    {/* First Box */}
     <div className="container-fluid bg-color-first text-light p-5 firstflexbox">
       <div className=" secondflexbox">
-        <span className="display-4  font-weight-bold" style={{fontWeight:"500"}}>Your Personal</span>
-        <span className="display-4  font-weight-bold" style={{fontWeight:"500"}}> English AI Tutor </span>
-        <span className="display-4  font-weight-bold" style={{fontWeight:"500"}}> Friend</span>
-        <span className="text-left top-space-50 text-font"><strong>Meet ARYA</strong> - Become fluent in English by speaking with her</span>
+        <span className="display-4  font-weight-bold" style={{fontWeight:"500"}}>Learn English</span>
+        <span className="display-4  font-weight-bold" style={{fontWeight:"500"}}> Speaking The </span>
+        <span className="display-4  font-weight-bold" style={{fontWeight:"500"}}> Fastest Way</span>
+        <span className="text-left top-space-50 text-font">Practice English with ARYA -The Smartest A.I English Tutor</span>
         <span className="text-left text-font">and getting help with grammar,pronunciation,and fluency.</span>
         <div className="buttons-div">
         <img src={require("../../Images/gplay.png")} class="img-fluid gplay-img" alt="Responsive image"></img>
@@ -24,7 +24,7 @@ function Content()
         </div>
         </div>
       <div>
-        <img src={require("../../Images/mobile.png")} class="img-fluid mobile-img" alt="Responsive image"></img>
+        <img src={require("../../Images/home.gif")} class="img-fluid mobile-img" alt="Responsive image"></img>
         </div>
         </div>
         
@@ -33,24 +33,24 @@ function Content()
         
         <div className=" container-fluid bg-color-sec p-5 firstflexbox ">
         
-        <img src={require("../../Images/mobile.png")} class="img-fluid mobile-img" alt="Responsive image"></img>
+        <img src={require("../../Images/arya.gif")} class="img-fluid mobile-img" alt="Responsive image"></img>
         <div className="d-flex flex-column">
-        <span className="display-4 text-dark " style={{fontWeight:"400"}}>Practice Real LIfe </span>
-        <span className="display-4 text-dark"style={{fontWeight:"400"}}>  Conversation</span>
+        <span className="display-4 text-dark " style={{fontWeight:"400"}}>Just Start Speaking to  </span>
+        <span className="display-4 text-dark"style={{fontWeight:"400"}}>enhance your fluency</span>
         <span className="text-left text-muted" style={{marginTop:"30"}}></span>
         <span className="text-left text-muted top-space-50">Fast deployment with our expert support.Boost your revenue.Reduce support</span>
        <span className="text-left text-muted "> operations by over 30%.fast deployment with our expert support.</span>
        <div className="d-flex flex-row">
        <div>
          <ul className=" text muted top-space-50" >
-            <li > 24/7 Support</li>
-            <li> AI chart Asistant</li>
+            <li >Direct Feedback</li>
+            <li> 24/7 Availability</li>
             </ul>
          </div>
          <div>
             <ul className=" text muted top-space-50">
-            <li>Unlimited</li>
-            <li> Save time and money</li>
+            <li>Varied topics of interest</li>
+            <li>Instant replies</li>
          </ul>
        </div>
        </div>
@@ -59,26 +59,34 @@ function Content()
 
 {/* Third-box */}
 
-        <div className=" container-fluid bg-color-sec p-5 firstflexbox">
+        <div className=" container-fluid bg-color-third p-5 firstflexbox">
         <div className=" secondflexbox">
-        <span className="display-4  font-weight-bold" style={{fontWeight:"500"}}>Correct Your grammar</span>
-        <span className="display-4  font-weight-bold" style={{fontWeight:"500"}}>on the go </span>
+        <span className="display-4  font-weight-bold" style={{fontWeight:"500"}}>Get help from your</span>
+        <span className="display-4  font-weight-bold" style={{fontWeight:"500"}}>native language </span>
       
         <span className="text-left top-space-50 text-font">Fast deployment with our expert support.Boost your revenue.Reduce support </span>
         <span className="text-left text-font">operations by over 30%.fast deployment with our expert support.</span>
+      
+        <div>
         <ul className="text muted top-space-50" >
-            <li > 24/7 Support</li>
-            <li> Unlimited Support </li>
-            <li>AI Chart Assistant </li>
-            <li> Save time and money</li>
+            <li >Dynamic learning</li>
+            <li>One Click Translation </li>
+          </ul>
+            </div>
+            <div>
+            <ul className="text muted top-space-50" > 
+            <li>Word Meaning </li>
+            <li>Native Language Support</li>
             </ul>
+          </div>
+      </div>
+        <img src={require("../../Images/score.gif")} class="img-fluid mobile-img" alt="Responsive image"></img>
         </div>
-        <img src={require("../../Images/mobile.png")} class="img-fluid mobile-img" alt="Responsive image"></img>
-        </div>
+        
 {/* Forth-box */}
 
         <div className=" container-fluid bg-color-sec p-5 firstflexbox ">
-        <img src={require("../../Images/mobile.png")} class="img-fluid mobile-img" alt="Responsive image"></img>
+        <img src={require("../../Images/translate.gif")} class="img-fluid mobile-img" alt="Responsive image"></img>
         <div className="d-flex flex-column">
         <span className="display-4 text-dark" style={{fontWeight:"400"}}>Get Translations In</span>
         <span className="display-4 text-dark" style={{fontWeight:"400"}}>Native Languages</span>
@@ -87,26 +95,25 @@ function Content()
        <span className="text-left text-muted "> operations by over 30%.fast deployment with our expert support.</span>
        <div>
          <ul className="text muted top-space-50" >
-            <li > 24/7 Support</li>
-            <li> Unlimited Support </li>
-            <li>AI Chart Assistant </li>
-            <li> Save time and money</li>
-         </ul>
+            <li >Redeemable coins</li>
+            <li>Encouraging consistency </li>
+            </ul>
+            </div>
+            <div>
+            <ul className="text muted top-space-50" >
+            <li>Surprising goodies</li>
+            <li>Progressive learning</li>
+            </ul>
+            </div>
+        
        </div>
         </div>
-        </div>
- 
-
-     
-        
       
+      
+  
 
 </>
-
-
-
-
-    
+  
  );
 }
 
