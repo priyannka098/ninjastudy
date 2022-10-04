@@ -1,13 +1,15 @@
 
 .bg-color-first{
     background-color:#6464d4;
-    height:800px;
-    width:100%;
+   
+}
+.content-scope{
+    height:45rem;
+
 }
 .bg-color-sec{
     background-color: white;
-    height:600px;
-    width:100%;
+   
 }
 .bg-color-third{
     background-color:#dbdbfb ;
@@ -35,8 +37,8 @@
 }
 
 .mobile-img {
-    width: 300px;
-    height: 500px;
+    width:20rem;;
+    height:36rem;
 }
 .firstflexbox{
     display:flex;
@@ -54,8 +56,6 @@
     display:flex;
     flex-direction: column;
     justify-content: center;
-   
-
 }
 .style-text{
     margin-right:50px;

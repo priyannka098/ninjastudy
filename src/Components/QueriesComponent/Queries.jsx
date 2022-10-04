@@ -6,7 +6,7 @@ function Queries(){
 
 return(
     <>
-    <div className="container-fluid bg-color-third text-dark   ">
+    <div className="container-fluid bg-color-fifth text-dark   ">
         <div className="heading-box2">
         <span className="  font-weight-bold font-height1">Any Queries? Ask us </span>
         </div>

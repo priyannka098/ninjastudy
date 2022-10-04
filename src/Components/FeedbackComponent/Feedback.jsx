@@ -1,10 +1,9 @@
-import React, { useEffect, useState } from "react";
+import React, { useEffect, useState } from "react"
 import feedback from "./FeedbackData.json";
 import "./Feedback.css"
 
 function Feedback()
 {
-
  const[carouselItems,setCarouselItems]=useState([]);
 
 useEffect(()=>{
@@ -16,11 +15,31 @@ let items=[];
     for(let j=0;j<3 && (3*i+j)<feedback.reviews.length;j++){
       cards.push(
       <div class="card card-style" key={feedback.reviews[(3*i)+j].id}>
-      <div class="card-body">
+      <div class="card-body card-align">
+        <div className="feedback-top">
+      <img src={feedback.reviews[(3*i)+j].image} class="img-fluid fed-img" alt="Responsive image"></img>
+      
+      <div className="star-rating">
+      {[...Array(5)].map((_, index) => {
+
+           return (
+          <button
+            type="button"
+            key={index}
+            className={index< feedback.reviews[(3*i)+j].Rating ? "on" : "off"}
+          >
+            {<span className="star st-btn">&#9733;</span> }
+          </button>
+        );
+      })}
+    </div>
+        <p className="card-text">{feedback.reviews[(3*i)+j].Description}</p>
+        </div>
+        <div className="feedback-bottom">
         <h5 class="card-title">{feedback.reviews[(3*i)+j].Name}</h5>
-        <p class="card-text">{feedback.reviews[(3*i)+j].Description}</p>
-        <p class="card-text">{"Rating: "+feedback.reviews[(3*i)+j].Rating}</p>
-        <a href="#" class="btn btn-primary">{feedback.reviews[(3*i)+j].Profession}</a>
+        {/* <p class="card-text">{"Rating: "+feedback.reviews[(3*i)+j].Rating}</p> */}
+        <p  className="">{feedback.reviews[(3*i)+j].Profession}</p>
+        </div>
       </div>
     </div>
     )

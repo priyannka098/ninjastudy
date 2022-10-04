@@ -7,7 +7,7 @@ function Content()
    <>
 
    {/* First Box */}
-    <div className="container-fluid bg-color-first text-light p-5 firstflexbox">
+    <div className="container-fluid bg-color-first content-scope text-light p-5 firstflexbox">
       <div className=" secondflexbox">
         <span className="display-4  font-weight-bold" style={{fontWeight:"500"}}>Learn English</span>
         <span className="display-4  font-weight-bold" style={{fontWeight:"500"}}> Speaking The </span>
@@ -29,9 +29,9 @@ function Content()
         </div>
         
 
-{/* Second-BOx */}
+{/* Second-Box */}
         
-        <div className=" container-fluid bg-color-sec p-5 firstflexbox ">
+        <div className=" container-fluid bg-color-sec content-scope p-5 firstflexbox ">
         
         <img src={require("../../Images/arya.gif")} class="img-fluid mobile-img" alt="Responsive image"></img>
         <div className="d-flex flex-column">
@@ -59,7 +59,7 @@ function Content()
 
 {/* Third-box */}
 
-        <div className=" container-fluid bg-color-third p-5 firstflexbox">
+        <div className="container-fluid content-scope bg-color-third p-5 firstflexbox">
         <div className=" secondflexbox">
         <span className="display-4  font-weight-bold" style={{fontWeight:"500"}}>Get help from your</span>
         <span className="display-4  font-weight-bold" style={{fontWeight:"500"}}>native language </span>
@@ -85,7 +85,7 @@ function Content()
         
 {/* Forth-box */}
 
-        <div className=" container-fluid bg-color-sec p-5 firstflexbox ">
+        <div className="container-fluid  content-scope bg-color-sec p-5 firstflexbox ">
         <img src={require("../../Images/translate.gif")} class="img-fluid mobile-img" alt="Responsive image"></img>
         <div className="d-flex flex-column">
         <span className="display-4 text-dark" style={{fontWeight:"400"}}>Get Translations In</span>

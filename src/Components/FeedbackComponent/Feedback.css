@@ -1,7 +1,8 @@
 .card-style {
     margin: 1em;
-    width: 19rem;
-    height: 22rem;
+    width: 20rem;
+    height: 24rem;
+    border-radius: 1rem;
 }
 
 .bg-color-feedback{
@@ -13,6 +14,50 @@
 .center {
     justify-content: center;
 }
+.fed-img{
+    width: 3rem;
+    height:3rem;
+    border-radius: 50rem;
+    
+
+}
+button {
+    background-color: transparent;
+    border: none;
+    outline: none;
+    cursor: pointer;
+
+  }
+  .st-btn{
+ font-size: 1.8rem;
+/* transform: scale(.5, 1); */
+  }
+  .feedback-bottom{
+    height: 75px;
+    display: flex;
+    flex-direction: column;
+    
+  }
+  .card-align{
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    /* align-items: flex-end; */
+    
+  }
+  .feedback-top{
+
+  }
+     
+  .on {
+    color:orange;
+  }
+  .off {
+    color: #ccc;
+  }
+
+
 
 .button-style{
     border-radius: 10rem;

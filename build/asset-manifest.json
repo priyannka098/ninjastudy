@@ -1,8 +1,11 @@
 {
   "files": {
-    "main.css": "/ninjastudy/static/css/main.b23b4d4d.css",
-    "main.js": "/ninjastudy/static/js/main.86c5b212.js",
-    "static/media/mobile.png": "/ninjastudy/static/media/mobile.444a395703a19a64b558.png",
+    "main.css": "/ninjastudy/static/css/main.f28ba4ed.css",
+    "main.js": "/ninjastudy/static/js/main.ca945b38.js",
+    "static/media/translate.gif": "/ninjastudy/static/media/translate.7c7564d207166fb321e0.gif",
+    "static/media/home.gif": "/ninjastudy/static/media/home.e19026e44cc625aefcde.gif",
+    "static/media/score.gif": "/ninjastudy/static/media/score.855942bff16a90b16fed.gif",
+    "static/media/arya.gif": "/ninjastudy/static/media/arya.9fcb31142e49c32710c6.gif",
     "static/media/askgif.gif": "/ninjastudy/static/media/askgif.c5eb434ee3e6c5799a1a.gif",
     "static/media/FAQ.png": "/ninjastudy/static/media/FAQ.3c0abd82fe4a339d6607.png",
     "static/media/gplay.png": "/ninjastudy/static/media/gplay.88c0cf672ae4dd873d7f.png",
@@ -13,11 +16,11 @@
     "static/media/youtube.png": "/ninjastudy/static/media/youtube.6ecb9f9628e32a923f65.png",
     "static/media/instagram.png": "/ninjastudy/static/media/instagram.add9621e7890975cbad9.png",
     "index.html": "/ninjastudy/index.html",
-    "main.b23b4d4d.css.map": "/ninjastudy/static/css/main.b23b4d4d.css.map",
-    "main.86c5b212.js.map": "/ninjastudy/static/js/main.86c5b212.js.map"
+    "main.f28ba4ed.css.map": "/ninjastudy/static/css/main.f28ba4ed.css.map",
+    "main.ca945b38.js.map": "/ninjastudy/static/js/main.ca945b38.js.map"
   },
   "entrypoints": [
-    "static/css/main.b23b4d4d.css",
-    "static/js/main.86c5b212.js"
+    "static/css/main.f28ba4ed.css",
+    "static/js/main.ca945b38.js"
   ]
 }
