@@ -18,7 +18,8 @@
 .heading-box2{
     padding: 3rem;
     text-align: center;
-
+    display: flex;
+    flex-direction: row;
 }
 .askbox1{
     display:flex;
@@ -31,7 +32,6 @@ margin-top: 2rem;
 }
 
 .input-box{
-    width: 18rem;
     height: 3rem;
     border-radius: 5px;
     border: 1px solid black;
@@ -45,10 +45,10 @@ margin-top: 2rem;
     border: 1px solid black;
     background-color: rgb(210, 217, 226);
     padding: 8px;
-    width: 30rem;
+    width: 100%;
 }
 .textarea-div{
-    width: 75%;
+    width: 68%;
 }
 .submit{
     width: 25%;
@@ -65,4 +65,32 @@ margin-top: 2rem;
 
 .queries-img{
     width: 12rem;
+}
+.form-big{
+  width: 75%;  
+}
+.form-small{
+    display:none;
+}
+
+
+@media only screen and (max-width: 800px) {
+    .ask-image{display:none}
+    .form-big{display:none}
+
+    .heading-box2{
+       flex-direction:column!important;
+       padding: 0rem!important;
+     }
+.form-small{
+    display: flex;
+    flex-direction: column ;
+}
+.input-box{
+    width: 100%!important;
+}
+.textarea-div{
+    width: 100%;
+}
+
 }
