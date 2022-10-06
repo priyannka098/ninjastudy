@@ -10,6 +10,13 @@
     height:40rem;
     width:100%;
 }
+.card-text{
+    margin-top: 1rem;;
+}
+ /* .navbar-logo-img{ 
+    height:4rem;
+    width:3rem;
+} */
 
 .center {
     justify-content: center;
@@ -75,4 +82,5 @@ button {
 .font-height-feedback{
     font-size:3rem;
     padding:2rem;
+    font-weight:500;
 }

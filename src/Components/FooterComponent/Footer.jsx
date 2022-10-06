@@ -9,7 +9,7 @@ function Features()
  return(
     <>
     <footer>
-      <div className="container-fluid bg-color-forth">
+      <div  className="container-fluid bg-color-forth">
         <div className="innerbox">
         <div className="inner-left-box">
         <div className="img-box">

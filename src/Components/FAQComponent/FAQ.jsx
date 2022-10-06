@@ -5,10 +5,10 @@ function Faq()
 {
   return(
     <>
-    <div className="container-fluid top-level-container text-dark   ">
+    <div id="faq" className="container-fluid top-level-container text-dark   ">
       <div className="heading-box1">
-    <span className="font-weight-bold font-height" style={{fontWeight:"500"}}>Frequently Asked Questions </
-    span>
+    <span className="font-weight-bold font-height" style={{fontWeight:"500"}}>Frequently Asked Questions </span>
+
     </div>
     <div className="img-txt-box">
     <div className="outerbox2 ">

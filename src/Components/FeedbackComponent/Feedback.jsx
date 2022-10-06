@@ -62,7 +62,7 @@ return(
 <>
 <div className="container-fluid bg-color-feedback text-dark   ">
         <div className="heading-box2">
-        <span className="font-weight-bold font-height-feedback" style={{fontWeight:"700"}}>What Our Students Say About Us </span>
+        <span className="font-weight-bold font-height-feedback">What Our Students Say About Us </span>
 </div>
 <div id="carouselExampleControls" className="carousel slide" data-bs-ride="carousel">
   <div className="carousel-inner">

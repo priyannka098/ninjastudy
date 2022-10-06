@@ -16,8 +16,8 @@
 }
 
 .gplay-img {
-    max-height: 200px;
-    max-width: 250px; 
+    height:3.5rem;
+    width:11rem; 
 }
 .play-button{
     background: transparent;
@@ -30,6 +30,7 @@
     flex-direction: row;
     justify-content: space-between;
     width: 70%;
+    margin-top:3rem;
 }
 
 .top-space-50{
@@ -55,8 +56,42 @@
 .secondflexbox{
     display:flex;
     flex-direction: column;
-    justify-content: center;
+    height:100%;
+    padding-top:4rem;
+
 }
 .style-text{
     margin-right:50px;
+}
+li {
+
+    list-style: none;
+    color:grey;
+}
+
+li.bullet::before {
+
+    /* Unicode for a bullet */
+    content: "\2022";
+    color:#6464d4;;
+      
+    display: inline-block;
+    width: 1rem;
+    margin-left: -1.5em;
+    font-size: 1.5rem;
+}
+.text-line{
+    text-decoration-line:line-through ;
+}
+.content-fontsize{
+
+    font-size:3rem;
+    font-weight:620;
+
+
+}
+.content-text{
+    height:100%;
+    padding-top:4rem ;
+
 }

@@ -6,9 +6,9 @@ function Queries(){
 
 return(
     <>
-    <div className="container-fluid bg-color-fifth text-dark   ">
+    <div id="contact" className="container-fluid bg-color-fifth text-dark   ">
         <div className="heading-box2">
-        <span className="  font-weight-bold font-height1">Any Queries? Ask us </span>
+        <span className=" font-weight-bold content2-fontsize">Any Queries? Ask us </span>
         </div>
         <div className="d-flex flex-row"style={{justifyContent:"space-around"}}>
         <div style={{width:"50%"}}>
@@ -35,7 +35,7 @@ return(
             </form>
         </div>
         <div className="ask-image">
-        <img src={require("../../Images/askgif.gif")} class="img-fluid gplay-img"  alt="Responsive image"></img>
+        <img src={require("../../Images/askgif.gif")} class="img-fluid queries-img"  alt="Responsive image"></img>
         </div> 
         </div>
     

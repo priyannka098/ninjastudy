@@ -8,10 +8,40 @@
 
 .remove-flex-grow{
     flex-grow: unset;
-    margin-right:50px;
+
 }
 .img-txt-box{
     display:flex;
     align-items: center;
     
 }
+.navbar-logo-img{
+    height:2.5rem;
+    
+
+}
+.navbar-logo-box{
+   margin-left:10rem; 
+}
+.navbar-property-box{
+    margin-left: 22rem;
+
+}
+.navbar-button{
+    margin-right:6rem;
+
+    
+}
+.nav-item{
+    margin-right: 1.8rem;
+    font-size:0.9rem;
+    font-weight:600;
+    color:black;
+}
+.button-styling{
+font-size:.7rem;
+font-weight:600;
+}
+
+
+
