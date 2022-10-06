@@ -7,7 +7,7 @@ function Faq()
     <>
     <div id="faq" className="container-fluid top-level-container text-dark   ">
       <div className="heading-box1">
-    <span className="font-weight-bold font-height" style={{fontWeight:"500"}}>Frequently Asked Questions </span>
+    <span className="font-weight-bold display-4" style={{fontWeight:"500"}}>Frequently Asked Questions </span>
 
     </div>
     <div className="img-txt-box">

@@ -10,8 +10,8 @@ function Content()
     <div className="container-fluid bg-color-first content-scope text-light p-5 firstflexbox">
       <div className=" secondflexbox">
         <span className="display-4  font-weight-bold" style={{fontWeight:"500"}}>Learn English</span>
-        <span className="display-4  font-weight-bold" style={{fontWeight:"500"}}> Speaking The </span>
-        <span className="display-4  font-weight-bold" style={{fontWeight:"500"}}> Fastest Way</span>
+        <span className="display-4  font-weight-bold" style={{fontWeight:"500"}}> Speaking </span>
+        <span className="display-4  font-weight-bold" style={{fontWeight:"500"}}> The Fastest Way</span>
         <span className="text-left top-space-50 text-font">Practice English with ARYA -The Smartest A.I. English Tutor</span>
         <br></br>
         <div className="promotion d-flex flex-column">
@@ -42,11 +42,11 @@ function Content()
         
         <img src={require("../../Images/arya.gif")} class="img-fluid mobile-img" alt="Responsive image"></img>
         <div className="d-flex flex-column content-text">
-        <span className="display-4 text-dark content-fontsize">Just Start Speaking to  </span>
-        <span className="display-4 text-dark content-fontsize">enhance your fluency</span>
+        <span className="display-4 text-dark content-fontsize">Just Start Speaking</span>
+        <span className="display-4 text-dark content-fontsize"> to enhance your fluency</span>
         <span className="text-left text-muted" style={{marginTop:"30"}}></span>
         
-       <div className="d-flex flex-row">
+       <div className=" bullets-div">
        <div>
          <ul className="text muted top-space-50" >
             <li className="bullet">Direct Feedback</li>
@@ -60,6 +60,17 @@ function Content()
          </ul>
        </div>
        </div>
+       <div className=" bullets-div-small">
+       
+         <ul className="text muted top-space-50" >
+            <li className="bullet">Direct Feedback</li>
+            <li className="bullet"> 24/7 Availability</li>
+            <li className="bullet">Varied topics of interest</li>
+            <li className="bullet">Instant replies</li>
+         </ul>
+       
+       </div>
+       <img src={require("../../Images/arya.gif")} class="img-fluid mobile-img-small" alt="Responsive image"></img>
         </div>
         </div>
 
@@ -70,7 +81,7 @@ function Content()
         <span className="display-4  font-weight-bold content-fontsize" >Get help from your</span>
         <span className="display-4  font-weight-bold content-fontsize">native language </span>
       
-      <div className="d-flex flex-row ">
+      <div className="bullets-div ">
         <div>
         <ul className="text muted top-space-50" >
             <li className="bullet">Dynamic learning</li>
@@ -84,6 +95,17 @@ function Content()
             </ul>
           </div>
           </div>
+
+          <div className="bullets-div-small ">
+        <ul className="text muted top-space-50" >
+            <li className="bullet">Dynamic learning</li>
+            <li className="bullet"> Word Meaning </li>
+            <li className="bullet">One Click Translation</li>
+            <li className="bullet">Native Language Support</li>
+            </ul>
+          </div>
+          <img src={require("../../Images/score.gif")} class="img-fluid mobile-img-small" alt="Responsive image"></img>
+
       </div>
         <img src={require("../../Images/score.gif")} class="img-fluid mobile-img" alt="Responsive image"></img>
         </div>
@@ -97,7 +119,7 @@ function Content()
         <span className="display-4 text-dark content-fontsize">Native Languages</span>
         <span className="text-left text-muted" style={{marginTop:"30"}}></span>
         
-       <div className="d-flex flex-row">
+       <div className="bullets-div">
         <div>
           <ul className="text muted top-space-50 color" >
             <li className="bullet">Redeemable coins</li>
@@ -112,6 +134,20 @@ function Content()
             </ul>
           </div>
             </div>
+
+            <div className=" bullets-div-small">
+              <ul>
+                <li className="bullet">Redeemable coins</li>
+                <li className="bullet">Surprising goodies</li>
+                <li className="bullet">Encouraging consistency</li>
+               <li className="bullet">Progressive learning</li>
+            </ul>
+          </div>
+          <img src={require("../../Images/translate.gif")} class="img-fluid mobile-img-small" alt="Responsive image"></img>
+            
+
+
+
         
        </div>
         </div>

@@ -8,7 +8,7 @@ return(
     <>
     <div id="contact" className="container-fluid bg-color-fifth text-dark   ">
         <div className="heading-box2">
-        <span className=" font-weight-bold content2-fontsize">Any Queries? Ask us </span>
+        <span className=" display-4 font-weight-bold" style={{fontWeight:"500"}}>Any Queries? Ask us </span>
         </div>
         <div className="d-flex flex-row"style={{justifyContent:"space-around"}}>
         <div style={{width:"50%"}}>

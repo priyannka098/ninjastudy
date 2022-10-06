@@ -32,12 +32,13 @@
 .promotion {display: none !important;}
 
 .mobile-img-small{
-    width:12rem;;
-    height:22rem;
+    width:14rem;
+    height:24rem;
     display: block !important;
 }
 .secondflexbox{
-    padding-top: 0!important;
+    padding-top:0.5rem!important;
+    align-items: center;
 }
 
 .firstflexbox{
@@ -48,13 +49,51 @@
 .buttons-div{
     display: flex ;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: center !important;
     width: 70%;
     margin-bottom: 1rem !important;
     margin-top: 0 !important;
 }
+.text-font{
+    font-family: "Segoe UI",Roboto,"Helvetica Neue","Noto Sans","Liberation Sans",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+    font-size:1rem !important;
+}
+.content-fontsize{
+
+    font-size:1.8rem !important;
+    font-weight:640;
+}
+.bullets-div-small{
+    display:flex !important;
+    flex-direction: column !important;  
+    font-size: 1rem;;
+  }
+  .bullets-div {
+    display: none !important;
+  } 
+  .content-text{
+
+    padding-top:0.5rem !important; ;
+
+}
+
+
+
+
+}
+
+
+
+
+.bullets-div-small{
+    display:none;
     
-    }
+}
+
+.bullets-div{
+  display: flex;
+  flex-direction: row;  
+} 
 
 .buttons-div{
     display: flex;
