@@ -14,19 +14,21 @@ function Content()
         <span className="display-4  font-weight-bold" style={{fontWeight:"500"}}> Fastest Way</span>
         <span className="text-left top-space-50 text-font">Practice English with ARYA -The Smartest A.I. English Tutor</span>
         <br></br>
+        <div className="promotion d-flex flex-column">
         <div style={{display:"flex"}}>
         <span style={{textDecorationLine:"line-through"}} >&#8377; 200/Month </span><span style={{marginLeft:"0.5rem"}}><strong> Free*</strong></span>
         </div> 
         <span className="">*Limited Time Offer for Early Users only</span>
-        
+        </div>
         <div className="buttons-div">
         <img src={require("../../Images/gplay.png")} class="img-fluid gplay-img" alt="Responsive image"></img>
-       
-        <button type="button" className="btn btn-primary play-button">
+                <button type="button" className="btn btn-primary play-button">
                 <svg xmlns="http://www.w3.org/2000/svg" width="30" height="20" fill="currentColor" className="bi bi-play-fill" viewBox="0 0 16 16">
   <path d="m11.596 8.697-6.363 3.692c-.54.313-1.233-.066-1.233-.697V4.308c0-.63.692-1.01 1.233-.696l6.363 3.692a.802.802 0 0 1 0 1.393z"></path>
 </svg>  Play video </button>
         </div>
+        <img src={require("../../Images/home.gif")} class="img-fluid mobile-img-small" alt="Responsive image"></img>
+
         </div>
       <div>
         <img src={require("../../Images/home.gif")} class="img-fluid mobile-img" alt="Responsive image"></img>
