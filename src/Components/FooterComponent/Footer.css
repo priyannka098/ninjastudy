@@ -53,20 +53,15 @@
 .innerbox{
     display: flex;
     flex-direction: row;
-    width: 80%;
+ 
     justify-content: space-between;
 }
 .bottom-box{
-    width:80%;
     justify-content: space-between;
 }
 
-.inner-left-box{
-    width: 30%;
-}
 .inner-right-box{
     padding-top: 1rem;
-    width: 45%;
 }
 .paa{
     margin-right: 3rem;;
@@ -95,6 +90,60 @@
 .img-y-logo{
     width:4rem;
     height:2rem;
+
+}
+.footer-small{
+    display:none;
+}
+.footer-big{
+   width: 80%;
+}
+
+
+
+@media only screen and (max-width: 800px) {
+    .footer-big{
+        display:none;
+    }
+    .footer-small{
+        display:flex;
+        flex-direction: column;
+    }
+    .inner-right-box{
+        width: 45%!important;
+    }
+    .innerbox{
+        flex-direction: column!important;
+
+    }
+    .footer-box1{
+
+        width:100%;
+    }
+    .footer-box2{
+        margin-top:0rem!important;
+        margin-left:0rem!important;
+        
+    }
+    .footer-box3{
+        margin-top:0rem!important;
+        
+    }.footer-box4{
+        margin-top:0rem!important;
+    
+    }
+    .right-reserved-styling{
+        width:30% ;
+        display:flex;
+        justify-content:end;
+        font-size: 0.9rem;;
+    }
+    .text-style{
+        width:70%;
+        display:flex;
+        font-size:0.9rem;
+    
+    }
 
 }
 
