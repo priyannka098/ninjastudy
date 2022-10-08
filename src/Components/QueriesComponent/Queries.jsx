@@ -10,7 +10,7 @@ return(
         <div className="d-flex flex-column queries-parent">
         <div className="heading-box2">
         <span className=" display-4 font-weight-bold heading-text">Any Queries? </span>
-        <span className=" display-4 font-weight-bold" style={{fontWeight:"500"}}> Ask us </span>
+        <span className=" display-4 font-weight-bold heading-text"> Ask us </span>
         </div>
         <div className="d-flex flex-row"style={{justifyContent:"space-between"}}>
         
