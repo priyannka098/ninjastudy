@@ -1,6 +1,6 @@
 .card-style {
     margin: 1em;
-    width: 20rem;
+    width: 17rem;
     height: 24rem;
     border-radius: 1rem;
 }
@@ -11,7 +11,7 @@
     width:100%;
 }
 .card-text{
-    margin-top: 1rem;;
+    margin-top: 1rem;
 }
  /* .navbar-logo-img{ 
     height:4rem;
@@ -53,19 +53,13 @@ button {
     /* align-items: flex-end; */
     
   }
-  .feedback-top{
-
-  }
-     
+  
   .on {
     color:orange;
   }
   .off {
     color: #ccc;
   }
-
-
-
 .button-style{
     border-radius: 10rem;
     height:3rem;
@@ -84,3 +78,69 @@ button {
     padding:2rem;
     font-weight:500;
 }
+.feedback-heading-box{
+  padding: 3rem;
+  justify-content: center;
+  display: flex;
+  flex-direction: row;
+}
+
+
+@media only screen and (max-width: 821px) {
+
+  .st-btn{
+    font-size: 1.0rem !important;
+  
+  }
+  .card-text{
+      margin-top: 0rem !important;
+  }
+  .bg-color-feedback{
+    background-color: rgb(210, 217, 226);
+    height:40rem;
+    width:100%;
+  }
+
+  .card-style {
+    margin: 0.2em;
+    width: 20rem;
+    height: 22rem;
+    border-radius: 1rem;
+}
+
+.font-height-feedback{
+  font-size:3rem;
+  padding: 0rem !important;;
+  font-weight:500;
+}
+.feedback-heading-box{
+  padding: 2rem 2rem 4rem 0;
+  justify-content: left;
+}
+
+.button-style{
+  display: none;
+}
+
+}
+
+/* @media only screen and (max-width: 1200px) {
+  .button-style{
+    display: none;
+}
+} */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

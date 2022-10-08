@@ -41,10 +41,12 @@ function Content()
         <div id="features" className=" container-fluid bg-color-sec content-scope p-5 firstflexbox ">
         
         <img src={require("../../Images/arya.gif")} class="img-fluid mobile-img" alt="Responsive image"></img>
-        <div className="d-flex flex-column content-text">
+        <div className="d-flex flex-column content-text secondflexbox">
+          <div className="d-flex flex-column">
         <span className="display-4 text-dark content-fontsize">Just Start Speaking</span>
         <span className="display-4 text-dark content-fontsize"> to enhance your fluency</span>
         <span className="text-left text-muted" style={{marginTop:"30"}}></span>
+        </div>
         
        <div className=" bullets-div">
        <div>
@@ -114,7 +116,7 @@ function Content()
 
         <div className="container-fluid  content-scope bg-color-sec p-5 firstflexbox ">
         <img src={require("../../Images/translate.gif")} class="img-fluid mobile-img" alt="Responsive image"></img>
-        <div className="d-flex flex-column content-text">
+        <div className="secondflexbox content-text">
         <span className="display-4 text-dark content-fontsize">Get Translations In</span>
         <span className="display-4 text-dark content-fontsize">Native Languages</span>
         <span className="text-left text-muted" style={{marginTop:"30"}}></span>
@@ -136,7 +138,7 @@ function Content()
             </div>
 
             <div className=" bullets-div-small">
-              <ul>
+            <ul className="text muted top-space-50" >
                 <li className="bullet">Redeemable coins</li>
                 <li className="bullet">Surprising goodies</li>
                 <li className="bullet">Encouraging consistency</li>

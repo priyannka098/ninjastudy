@@ -24,6 +24,9 @@
     border: none;
     font-size: 1rem;
 }
+.c-heading-small{
+    display:none;
+}
 
 @media only screen and (max-width: 800px) {
 
@@ -76,12 +79,11 @@
     padding-top:0.5rem !important; ;
 
 }
-
-
-
-
+.c-heading-small{
+    margin-top:5rem;
 }
 
+}
 
 
 

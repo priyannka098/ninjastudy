@@ -5,19 +5,22 @@ import "./Feedback.css"
 function Feedback()
 {
  const[carouselItems,setCarouselItems]=useState([]);
+ const[carousalCardCount, setCarousalCardCount]=useState(3);
 
 useEffect(()=>{
-const numPages=Math.ceil(feedback.reviews.length/3);
+handleResize();
+window.addEventListener('resize', handleResize);
+const numPages=Math.ceil(feedback.reviews.length/carousalCardCount);
 console.log("useeffect running: "+feedback.reviews.name);
 let items=[];
   for(let i=0;i<numPages;i++){
     let cards=[];
-    for(let j=0;j<3 && (3*i+j)<feedback.reviews.length;j++){
+    for(let j=0;j<carousalCardCount && (carousalCardCount*i+j)<feedback.reviews.length;j++){
       cards.push(
-      <div class="card card-style" key={feedback.reviews[(3*i)+j].id}>
+      <div class="card card-style" key={feedback.reviews[(carousalCardCount*i)+j].id}>
       <div class="card-body card-align">
         <div className="feedback-top">
-      <img src={feedback.reviews[(3*i)+j].image} class="img-fluid fed-img" alt="Responsive image"></img>
+      <img src={feedback.reviews[(carousalCardCount*i)+j].image} class="img-fluid fed-img" alt="Responsive image"></img>
       
       <div className="star-rating">
       {[...Array(5)].map((_, index) => {
@@ -26,19 +29,19 @@ let items=[];
           <button
             type="button"
             key={index}
-            className={index< feedback.reviews[(3*i)+j].Rating ? "on" : "off"}
+            className={index< feedback.reviews[(carousalCardCount*i)+j].Rating ? "on" : "off"}
           >
             {<span className="star st-btn">&#9733;</span> }
           </button>
         );
       })}
     </div>
-        <p className="card-text">{feedback.reviews[(3*i)+j].Description}</p>
+        <p className="card-text">{feedback.reviews[(carousalCardCount*i)+j].Description}</p>
         </div>
         <div className="feedback-bottom">
-        <h5 class="card-title">{feedback.reviews[(3*i)+j].Name}</h5>
+        <h5 class="card-title">{feedback.reviews[(carousalCardCount*i)+j].Name}</h5>
         {/* <p class="card-text">{"Rating: "+feedback.reviews[(3*i)+j].Rating}</p> */}
-        <p  className="">{feedback.reviews[(3*i)+j].Profession}</p>
+        <p  className="">{feedback.reviews[(carousalCardCount*i)+j].Profession}</p>
         </div>
       </div>
     </div>
@@ -55,13 +58,26 @@ let items=[];
       }
     setCarouselItems(items);
       
-},[]);
+},[carousalCardCount]);
+
+const handleResize=()=>{
+  if(window.innerWidth<500){
+    setCarousalCardCount(1);
+  }
+  else if(window.innerWidth<800){
+    setCarousalCardCount(2);
+  }
+
+  else {
+    setCarousalCardCount(3);
+  } 
+}
 
 
 return(
 <>
 <div className="container-fluid bg-color-feedback text-dark   ">
-        <div className="heading-box2">
+        <div className=" feedback-heading-box">
         <span className=" display-4 font-weight-bold " style={{fontWeight:"500"}}>What Our Students Say About Us </span>
 </div>
 <div id="carouselExampleControls" className="carousel slide" data-bs-ride="carousel">

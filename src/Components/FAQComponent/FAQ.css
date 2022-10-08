@@ -63,5 +63,11 @@
     .faq-image{
         display:none;
     }
+
+    .heading-box1{
+        padding: 1.5rem 1.5rem 1.5rem 0rem;
+        text-align: start!important;
+        
+    }
 }
 
