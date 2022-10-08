@@ -27,10 +27,11 @@ function Navbar()
           <a class="nav-link" href="#contact" aria-disabled="true">Contact</a>
         </li>
       </ul>
-    </div>
-    <div className="navbar-button">
+      <div className="navbar-button">
       <button type="button" className="btn btn-warning button-styling "> GET STARTED</button>
       </div>
+    </div>
+    
   </div>
 </nav>
  
