@@ -1,8 +1,11 @@
 .faq-image{
-    height:20rem;
-    width:10rem;
+    /* height:17.75rem;
+    width:17.75rem;
+    margin-left:59.1875rem;
+    margin-top:14.5865rem; */
     display: flex;
     align-items: center;
+    width:30%;
 }
 .font-height{
     font-size:3rem;
@@ -22,14 +25,21 @@
     text-align: center;
     
 }
-.outerbox2{
-    width:45rem;
+/* .outerbox2{
+ width:42rem;   
     
+} */
+.faq-outlier{
+    width:80%;
 }
-.img-txt-box{
-    display:flex;
-    flex-direction: row;
-    width: 80%;
+
+.faq-outerbox1{
+    width: 70%;
+}
+.faq-outerbox{
+    display:flex; 
+    flex-direction: row; 
+    width:80%;
     justify-content: space-between;
     
 
@@ -68,6 +78,9 @@
         padding: 1.5rem 1.5rem 1.5rem 0rem;
         text-align: start!important;
         
+    }
+    .faq-outerbox1{
+        width: 100%;
     }
 }
 

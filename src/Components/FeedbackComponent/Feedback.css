@@ -1,14 +1,17 @@
 .card-style {
     margin: 1em;
-    width: 17rem;
-    height: 24rem;
+
+    height: 25rem;
     border-radius: 1rem;
 }
 
 .bg-color-feedback{
     background-color: rgb(210, 217, 226);
-    height:40rem;
+    height:42rem;
     width:100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 .card-text{
     margin-top: 1rem;
@@ -50,6 +53,7 @@ button {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    padding-top: 2.5rem;
     /* align-items: flex-end; */
     
   }
@@ -103,7 +107,6 @@ button {
 
   .card-style {
     margin: 0.2em;
-    width: 20rem;
     height: 22rem;
     border-radius: 1rem;
 }
@@ -123,6 +126,22 @@ button {
 }
 
 }
+
+.carousel-box{
+  width: 80%;
+  
+}
+
+.react-multiple-carousel__arrow--left{
+  left: 0!important;
+  background-color: #6263D5;
+}
+
+.react-multiple-carousel__arrow--right{
+  right: 0!important;
+  background-color: #6263D5;
+}
+
 
 /* @media only screen and (max-width: 1200px) {
   .button-style{

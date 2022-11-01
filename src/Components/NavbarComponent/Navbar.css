@@ -5,6 +5,12 @@
 .nav-in {
     background-color: white;
 }
+.navbar-text{
+    width:7rem;
+    height:2.4rem;
+    margin-left:.5rem;
+
+}
 
 .remove-flex-grow{
     flex-grow: unset;

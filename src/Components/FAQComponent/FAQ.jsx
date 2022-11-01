@@ -5,12 +5,14 @@ function Faq()
 {
   return(
     <>
-    <div id="faq" className="container-fluid top-level-container text-dark   ">
-      <div className="heading-box1">
+    <div id="faq" className="container-fluid top-level-container text-dark">
+    <div className="faq-outlier">
+    <div className="heading-box1">
     <span className="font-weight-bold display-4" style={{fontWeight:"500"}}>Frequently Asked Questions </span>
 
     </div>
-    <div className="img-txt-box">
+    <div className="d-flex" style={{justifyContent:"space-between"}}>
+      <div className="faq-outerbox1">
     <div className="outerbox2 ">
     <div className="accordion accordion-flush" id="accordionFlushExample">
   <div className="accordion-item accor-item">
@@ -45,11 +47,13 @@ function Faq()
   </div>
 </div>
 </div>
+</div>
 
 <div className="faq-image">
-        <img src={require("../../Images/FAQ.png")} class="img-fluid " alt="Responsive image"></img>
+        <img src={require("../../Images/faq-image.png")} class="img-fluid " alt="Responsive image"></img>
+</div>
         </div>
-        </div>
+</div>
 </div>
 
     </>

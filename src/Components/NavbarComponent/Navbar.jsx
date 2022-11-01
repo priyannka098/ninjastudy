@@ -8,8 +8,10 @@ function Navbar()
 <nav class="navbar navbar-expand-lg navbar-light bg-light">
   <div class="container-fluid">
   <div className="navbar-logo-box">
-  <img src={require("../../Images/logo.png")} class="img-fluid navbar-logo-img" alt="Responsive image"></img>
-    < span className="navbar-brand"><b style={{color:"purple"}}>ninjastudy</b></span >
+   <img src={require("../../Images/ninja-logo.png")} class="img-fluid navbar-logo-img" alt="Responsive image"></img>
+   <img src={require("../../Images/navbar-text2.png")} class="img-fluid navbar-text" alt="Responsive image"></img> 
+   
+    {/* < span className="navbar-brand"><b style={{color:"purple"}}>ninjastudy</b></span > */}
     </div>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>

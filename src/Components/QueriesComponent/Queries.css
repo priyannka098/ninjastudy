@@ -43,7 +43,7 @@ margin-top: 2rem;
     border: 1px solid black;
     background-color: rgb(210, 217, 226);
     padding: 8px;
-    margin-top: 10px;
+    margin-top:0.9rem;
 }
 .textarea1
 {
@@ -52,26 +52,43 @@ margin-top: 2rem;
     background-color: rgb(210, 217, 226);
     padding: 8px;
     width: 100%;
+    margin-top: 0.9rem;
 }
 .textarea-div{
     width: 68%;
 
+
 }
 .submit{
-    width: 25%;
+    font-family: 'work-sans';
+    /* width: 25%; */
     display: flex;
     align-items: end;
-    padding: 5px;
+     padding: 5px;
+     display:flex;
+     justify-content:center;
+     align-items: center;
+
 }
 
 .submit-btn{
-    width: 8rem;
+    width: 7.5rem;
     border-radius: 3rem;
+    height: 3.43rem;
+    font-size: 1.2rem;
+   
 
 }
 
 .queries-img{
-    width: 12rem;
+    width:18.06rem;
+    height: 11.68rem;
+
+}
+.sbumit-bottom{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .form-big{
   width: 75%;  

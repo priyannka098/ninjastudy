@@ -9,9 +9,9 @@ function Content()
    {/* First Box */}
     <div className="container-fluid bg-color-first content-scope text-light p-5 firstflexbox">
       <div className=" secondflexbox">
-        <span className="display-4  font-weight-bold" style={{fontWeight:"500"}}>Learn English</span>
-        <span className="display-4  font-weight-bold" style={{fontWeight:"500"}}> Speaking </span>
-        <span className="display-4  font-weight-bold" style={{fontWeight:"500"}}> The Fastest Way</span>
+        <h1 className="display-4  font-weight-bold" style={{fontWeight:"500",marginBottom:"0rem"}}>Learn English</h1>
+        <h1 className="display-4  font-weight-bold" style={{fontWeight:"500",marginBottom:"0rem"}}> Speaking </h1>
+        <h1 className="display-4  font-weight-bold" style={{fontWeight:"500",marginBottom:"0rem"}}> The Fastest Way</h1>
         <span className="text-left top-space-50 text-font">Practice English with ARYA -The Smartest A.I. English Tutor</span>
         <br></br>
         <div className="promotion d-flex flex-column">
@@ -43,8 +43,8 @@ function Content()
         <img src={require("../../Images/arya.gif")} class="img-fluid mobile-img" alt="Responsive image"></img>
         <div className="d-flex flex-column content-text secondflexbox">
           <div className="d-flex flex-column">
-        <span className="display-4 text-dark content-fontsize">Just Start Speaking</span>
-        <span className="display-4 text-dark content-fontsize"> to enhance your fluency</span>
+        <h1 className="display-4 text-dark content-fontsize" style={{marginBottom:"0rem"}}>Just Start Speaking</h1>
+        <h2 className="display-4 text-dark content-fontsize"> to enhance your fluency</h2>
         <span className="text-left text-muted" style={{marginTop:"30"}}></span>
         </div>
         

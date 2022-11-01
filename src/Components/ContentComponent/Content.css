@@ -110,8 +110,8 @@
 }
 
 .mobile-img {
-    width:20rem;;
-    height:36rem;
+    width:18.465rem;
+    height:36.25rem;
 }
 
 .mobile-img-small{
@@ -163,8 +163,6 @@ li.bullet::before {
 
     font-size:3rem;
     font-weight:620;
-
-
 }
 .content-text{
     height:100%;

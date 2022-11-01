@@ -11,3 +11,17 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+@font-face {
+  font-family: "Outfit";
+  src: local("Outfit"), url("./Fonts/Outfit-VariableFont_wght.ttf") format("truetype");
+}
+
+.outfit-font {
+  font-family: "Outfit" !important;
+}
+
+
+
+
+
