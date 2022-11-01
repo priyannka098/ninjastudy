@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://priyannka098.github.io/ninjastudy/sitemap.xml
