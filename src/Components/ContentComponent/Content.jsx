@@ -9,16 +9,16 @@ function Content()
    {/* First Box */}
     <div className="container-fluid bg-color-first content-scope text-light p-5 firstflexbox">
       <div className=" secondflexbox">
-        <h1 className="display-4  font-weight-bold" style={{fontWeight:"500",marginBottom:"0rem"}}>Learn English</h1>
-        <h1 className="display-4  font-weight-bold" style={{fontWeight:"500",marginBottom:"0rem"}}> Speaking </h1>
-        <h1 className="display-4  font-weight-bold" style={{fontWeight:"500",marginBottom:"0rem"}}> The Fastest Way</h1>
+        <h1 className="display-4  font-weight-bold content-context" style={{marginBottom:"0rem"}}>Learn English</h1>
+        <h1 className="display-4  font-weight-bold content-context" style={{}}> Speaking The </h1>
+        <h1 className="display-4  font-weight-bold content-context" style={{marginBottom:"0rem"}}> Fastest Way</h1>
         <span className="text-left top-space-50 text-font">Practice English with ARYA -The Smartest A.I. English Tutor</span>
         <br></br>
         <div className="promotion d-flex flex-column">
         <div style={{display:"flex"}}>
-        <span style={{textDecorationLine:"line-through"}} >&#8377; 200/Month </span><span style={{marginLeft:"0.5rem"}}><strong> Free*</strong></span>
+        <span style={{textDecorationLine:"line-through",fontSize:"1.2rem"}} >&#8377; 200/Month </span><span style={{marginLeft:"0.5rem"}}><strong style={{fontSize:"1.2rem",fontWeight:"500"}}> Free*</strong></span>
         </div> 
-        <span className="">*Limited Time Offer for Early Users only</span>
+        <span className="banner">*Limited Time Offer for Early Users Only</span>
         </div>
         <div className="buttons-div">
         <img src={require("../../Images/gplay.png")} class="img-fluid gplay-img" alt="Responsive image"></img>
@@ -117,8 +117,8 @@ function Content()
         <div className="container-fluid  content-scope bg-color-sec p-5 firstflexbox ">
         <img src={require("../../Images/translate.gif")} class="img-fluid mobile-img" alt="Responsive image"></img>
         <div className="secondflexbox content-text">
-        <span className="display-4 text-dark content-fontsize">Get Translations In</span>
-        <span className="display-4 text-dark content-fontsize">Native Languages</span>
+        <span className="display-4 text-dark content-fontsize">Turn your progress</span>
+        <span className="display-4 text-dark content-fontsize">into rewards</span>
         <span className="text-left text-muted" style={{marginTop:"30"}}></span>
         
        <div className="bullets-div">

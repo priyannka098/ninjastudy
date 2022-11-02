@@ -25,6 +25,7 @@
     text-align: center;
     
 }
+
 /* .outerbox2{
  width:42rem;   
     
@@ -54,15 +55,25 @@
     background-color: rgb(112, 112, 231);
     /* height:10rem; */
     color:white;
-
+    font-family: 'Inter';
+    font-size: 0.9rem;
+    font-weight: 300;
 }
+.accordion-header{
+    margin-top: 1.5rem;
+}
+
 .accor-head{
     --bs-accordion-active-bg: rgb(112, 112, 231);
     --bs-accordion-active-color: white;
     color:black;
     border:1px solid rgb(228, 214, 214);
     height: 5rem;
+    font-size: 1.1rem;
+    font-family: 'Inter';
+    font-weight: 300;
 }
+
 
 .accor-item{
     margin-bottom: 1rem;

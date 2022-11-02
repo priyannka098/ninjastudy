@@ -21,6 +21,15 @@ code {
   font-family: "Outfit" !important;
 }
 
+/* for inter font */
+@font-face {
+  font-family: "Inter";
+  src: local("Inter"), url("./Fonts/Inter-VariableFont_slnt,wght.ttf") format("truetype");
+}
+.local-font {
+  font-family: "Inter";
+}
+
 
 
 

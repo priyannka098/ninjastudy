@@ -8,7 +8,7 @@ function Faq()
     <div id="faq" className="container-fluid top-level-container text-dark">
     <div className="faq-outlier">
     <div className="heading-box1">
-    <span className="font-weight-bold display-4" style={{fontWeight:"500"}}>Frequently Asked Questions </span>
+    <span className="title-styling display-4">Frequently Asked Questions </span>
 
     </div>
     <div className="d-flex" style={{justifyContent:"space-between"}}>

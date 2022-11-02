@@ -100,7 +100,7 @@ return(
 <>
 <div className="container-fluid bg-color-feedback text-dark">
         <div className=" feedback-heading-box">
-        <span className=" display-4 font-weight-bold " style={{fontWeight:"500"}}>What Our Students Say About Us </span>
+        <span className=" display-4 title-styling ">What Our Students Say About Us </span>
 </div>
 <div className="carousel-box">
 <Carousel 

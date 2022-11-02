@@ -88,6 +88,11 @@ button {
   display: flex;
   flex-direction: row;
 }
+.title-styling{
+  font-weight: 600;
+  font-family: 'Inter';
+  font-size: 40px;
+}
 
 
 @media only screen and (max-width: 821px) {
@@ -100,7 +105,7 @@ button {
       margin-top: 0rem !important;
   }
   .bg-color-feedback{
-    background-color: rgb(210, 217, 226);
+    background-color: #D9D9FF;
     height:40rem;
     width:100%;
   }

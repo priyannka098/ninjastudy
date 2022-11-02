@@ -44,9 +44,15 @@
     font-weight:600;
     color:black;
 }
+
+.nav-item-colour{
+    color:black;
+    /* font-family:inter; */
+}
 .button-styling{
-font-size:.7rem;
+font-size:.8rem;
 font-weight:600;
+background-color: #FBD92D;
 }
 
 @media only screen and (max-width: 821px) {

@@ -19,10 +19,30 @@
     height:3.5rem;
     width:11rem; 
 }
+.promotion{
+    margin-top: 1.2rem;
+}
+li.bullet{
+    color:#7E8091;
+    font-size:0.9rem;
+    font-family: 'Inter';
+
+}
+.content-context{
+    font-weight:700;
+    font-size: 3.2rem;
+ font-family: 'Inter'; 
+ font-style:normal; 
+}
+.banner{
+    font-family: 'Inter';
+    font-size: 0.8rem;
+    font-weight: 300;
+}
 .play-button{
     background: transparent;
     border: none;
-    font-size: 1rem;
+    font-size: 1.2rem;
 }
 .c-heading-small{
     display:none;
@@ -62,9 +82,10 @@
     font-size:1rem !important;
 }
 .content-fontsize{
-
     font-size:1.8rem !important;
     font-weight:640;
+    font-family: 'Inter';
+
 }
 .bullets-div-small{
     display:flex !important;
@@ -100,18 +121,18 @@
 .buttons-div{
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    /* justify-content: space-between; */
     width: 70%;
-    margin-top:3rem;
+    margin-top:1.2rem;
 }
 
 .top-space-50{
-    margin-top: 30px;
+    margin-top: 10px;
 }
 
 .mobile-img {
-    width:18.465rem;
-    height:36.25rem;
+    width:19.0rem;
+    height:33rem;
 }
 
 .mobile-img-small{
@@ -139,15 +160,15 @@
 .style-text{
     margin-right:50px;
 }
-li {
+/* li {
 
     list-style: none;
     color:grey;
-}
+} */
 
-li.bullet::before {
+/* li.bullet::before {
 
-    /* Unicode for a bullet */
+   
     content: "\2022";
     color:#6464d4;;
       
@@ -155,13 +176,19 @@ li.bullet::before {
     width: 1rem;
     margin-left: -1.5em;
     font-size: 1.5rem;
+} */
+
+li.bullet::marker {
+    font-size: 1.5rem;
+    color:#6464d4;;
 }
+
 .text-line{
     text-decoration-line:line-through ;
 }
 .content-fontsize{
-
-    font-size:3rem;
+    font-family: 'Inter';
+    font-size:2.8rem;
     font-weight:620;
 }
 .content-text{

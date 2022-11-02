@@ -48,8 +48,8 @@ return(
     <div id="contact" className="container-fluid bg-color-fifth text-dark d-flex" style={{justifyContent:"center"}}>
         <div className="d-flex flex-column queries-parent">
         <div className="heading-box2">
-        <span className=" display-4 font-weight-bold heading-text">Any Queries? </span>
-        <span className=" display-4 font-weight-bold heading-text"> Ask us </span>
+        <span className=" display-4 title-styling ">Any Queries? </span>
+        <span className=" display-4 title-styling" style={{marginLeft:".8rem"}}> Ask us </span>
         </div>
         <div className="d-flex flex-row"style={{justifyContent:"space-between"}}>
         
