@@ -24,13 +24,12 @@
 }
 li.bullet{
     color:#7E8091;
-    font-size:0.9rem;
+    font-size:1rem; /* change temporary */ 
     font-family: 'Inter';
 
 }
 .content-context{
     font-weight:700;
-    font-size: 3.2rem;
  font-family: 'Inter'; 
  font-style:normal; 
 }
@@ -47,20 +46,66 @@ li.bullet{
 .c-heading-small{
     display:none;
 }
+.heading-small{
+    display:none;
+}
+
+.arya-small{
+    display: none;
+}
+.bullet-text-small{
+    display:none;
+}
+
+.show-in-big-hide-in-small{
+    display: block;
+}
+
+.hide-in-big-show-in-small{
+    display: none;
+}
 
 @media only screen and (max-width: 800px) {
-
+    .show-in-big-hide-in-small{
+        display: none;
+    }
+    
+    .hide-in-big-show-in-small{
+        display: block;
+    }
 .mobile-img {display: none;}
 .play-button{display: none;}
 .promotion {display: none !important;}
+.arya-big {
+    display: none;
+}
+.bullet-text-small{
+    display:block;
+
+}
+.gplay-img {
+    height:2.82rem;
+    width:7.5rem; 
+}
+.heading-small{
+    display:block;
+    align-items: center;
+    margin-top: 0.8rem;
+}
+.arya-small{
+    display: block;
+}
+.smallspace{
+    margin-top: 2rem;
+}
 
 .mobile-img-small{
-    width:14rem;
-    height:24rem;
+    width:16rem;
+    height: 26px;
     display: block !important;
 }
 .secondflexbox{
-    padding-top:0.5rem!important;
+    padding-top:1rem!important;
     align-items: center;
 }
 
@@ -78,8 +123,9 @@ li.bullet{
     margin-top: 0 !important;
 }
 .text-font{
-    font-family: "Segoe UI",Roboto,"Helvetica Neue","Noto Sans","Liberation Sans",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
-    font-size:1rem !important;
+    font-family:'Inter'!important;
+    font-size: 0.9rem!important;
+    text-align: center;
 }
 .content-fontsize{
     font-size:1.8rem !important;
@@ -97,7 +143,7 @@ li.bullet{
   } 
   .content-text{
 
-    padding-top:0.5rem !important; ;
+    padding-top:0.8rem !important; ;
 
 }
 .c-heading-small{
@@ -127,7 +173,7 @@ li.bullet{
 }
 
 .top-space-50{
-    margin-top: 10px;
+    margin-top: 15px;
 }
 
 .mobile-img {
@@ -137,6 +183,9 @@ li.bullet{
 
 .mobile-img-small{
     display: none;
+    width: 16rem;
+    height: 25rem;
+    /* margin-top: 1.5rem; */
 }
 .firstflexbox{
     display:flex;
@@ -147,7 +196,8 @@ li.bullet{
 }
 
 .text-font{
-    font-family: "Segoe UI",Roboto,"Helvetica Neue","Noto Sans","Liberation Sans",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+    /* font-family: "Segoe UI",Roboto,"Helvetica Neue","Noto Sans","Liberation Sans",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji"; */
+    font-family:'Inter';
     font-size: 20px;
 }
 .secondflexbox{

@@ -91,7 +91,7 @@ button {
 .title-styling{
   font-weight: 600;
   font-family: 'Inter';
-  font-size: 40px;
+  font-size: 2.4rem;
 }
 
 
@@ -104,6 +104,11 @@ button {
   .card-text{
       margin-top: 0rem !important;
   }
+  .title-styling{
+    
+    font-size: 1.8rem !important;
+     margin-top: 1rem; /* temp */
+  }
   .bg-color-feedback{
     background-color: #D9D9FF;
     height:40rem;
@@ -112,7 +117,7 @@ button {
 
   .card-style {
     margin: 0.2em;
-    height: 22rem;
+  
     border-radius: 1rem;
 }
 
@@ -122,7 +127,7 @@ button {
   font-weight:500;
 }
 .feedback-heading-box{
-  padding: 2rem 2rem 4rem 0;
+  padding: 2rem 2rem 2rem 0rem;
   justify-content: left;
 }
 
@@ -153,6 +158,10 @@ button {
     display: none;
 }
 } */
+
+
+
+
 
 
 

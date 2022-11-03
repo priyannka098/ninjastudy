@@ -40,7 +40,7 @@ margin-top: 2rem;
 .input-box{
     height: 3rem;
     border-radius: 5px;
-    border: 1px solid black;
+    border: 1px solid #333333;;
     background-color: rgb(210, 217, 226);
     padding: 8px;
     margin-top:0.9rem;
@@ -48,7 +48,7 @@ margin-top: 2rem;
 .textarea1
 {
     border-radius: 5px;
-    border: 1px solid black;
+    border: 1px solid  #333333;;
     background-color: rgb(210, 217, 226);
     padding: 8px;
     width: 100%;
@@ -60,7 +60,7 @@ margin-top: 2rem;
 
 }
 .submit{
-    font-family: 'work-sans';
+    font-family: 'Inter';
     /* width: 25%; */
     display: flex;
     align-items: end;
@@ -68,14 +68,16 @@ margin-top: 2rem;
      display:flex;
      justify-content:center;
      align-items: center;
+     padding-top: 3rem;
 
 }
 
 .submit-btn{
-    width: 7.5rem;
-    border-radius: 3rem;
-    height: 3.43rem;
-    font-size: 1.2rem;
+    width: 6.8rem;
+    border-radius: 4rem;
+    height: 3.0rem;
+    font-size: 1.1rem;
+    font-family: 'Inter';
    
 
 }
@@ -96,17 +98,38 @@ margin-top: 2rem;
 .form-small{
     display:none;
 }
+.query-title-space{
+    margin-left:0.8rem;
+}
+.title-styling-queries{
+    font-weight: 600;
+    font-family: 'Inter';
+    font-size: 2.4rem;
+  }
+  
 
 
 @media only screen and (max-width: 800px) {
     .ask-image{display:none}
     .form-big{display:none}
+    .title-styling-queries{
+    
+        font-size: 1.8rem !important;
+    
+      }
+      .textarea1{
+        margin-top: 0rem;
+      }
+
+    .query-title-space{
+        margin-left: 0rem!important;
+    }
 
     .heading-box2{
        flex-direction:column!important;
        padding: 0rem!important;
        align-items: flex-start;
-       margin-top:1rem;
+       margin-top:1.8rem;
     
      }
 .form-small{
@@ -116,6 +139,7 @@ margin-top: 2rem;
 }
 .input-box{
     width: 100%!important;
+    margin-top:0rem;
 
 }
 .textarea-div{
@@ -126,6 +150,7 @@ margin-top: 2rem;
     width:100%!important;
     border-radius: 3rem;
     margin-top:0.5rem;
+    font-family: 'Inter';
 }
 .input-text-style{
     margin-top:1.5rem;

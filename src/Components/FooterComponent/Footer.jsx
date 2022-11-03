@@ -30,19 +30,20 @@ function Features()
       <div className ="circle">
       <img src={require("../../Images/lin.png")} class="img-fluid img-icon " alt="Responsive image"></img>
       </div>
+
       <div className ="circle">
       <img src={require("../../Images/twit.png")} class="img-fluid img-icon " alt="Responsive image"></img>
-      
-      </div>
+     </div>
+
       <div className ="circle">
       <img src={require("../../Images/insta.png")} class="img-fluid img-icon" alt="Responsive image"></img>
-      
       </div>
+
       <div className ="circle">
        <img src={require("../../Images/youtube.png")} class="img-fluid img-icon" alt="Responsive image"></img>  
-      
+       </div>
       </div>
-      </div>
+
     </div>
       <div className="inner-right-box d-flex flex-row">
       <div className="footer-box2 d-flex flex-column outfit-font">
@@ -108,7 +109,7 @@ function Features()
       </div> */}
     </div>
       <div className="inner-right-box d-flex flex-row">
-        <div>
+        <div style={{width:'60%'}}>
       <div className="footer-box2 d-flex flex-column">
          <p><b> Privacy and terms</b></p>
           <p> Community Guideliness</p>
@@ -116,44 +117,58 @@ function Features()
            <p>Privacy</p>
       </div>
       <div className="footer-box3 d-flex flex-column">
-          <p><b>Help and Support</b></p>
-          <p>Contact Us</p>
-          <p>FAQ</p>
-          <p>Blog</p>
-      </div>
-      </div>
-      <div>
-      <div className="footer-box4 d-flex flex-column">
-        <p><b>About Us</b></p>
+          <p><b>About Us</b></p>
         <p>Mission</p>
         <p>Carrers</p>
         <p>Press</p>
         <p>Investors</p>
-        </div>
+      </div>
+
+      </div>
+      <div style={{width:'40%'}}>
+      <div className="footer-box4 d-flex flex-column">
+      <p><b>Help and Support</b></p>
+          <p>Contact Us</p>
+          <p>FAQ</p>
+          <p>Blog</p>
+        </div> 
+        <div className=" d-flex flex-column text-style"> 
+      <p>Privacy & Policy</p>
+      <p>Term & Condition</p>
+      </div>    
       </div>
       </div>
       </div>
 
       <div className="image-icon-box ">
+      -
+      <div className ="circle">
       <img src={require("../../Images/lin.png")} class="img-fluid img-icon " alt="Responsive image"></img>
-      <img src={require("../../Images/twit.png")} class="img-fluid img-icon " alt="Responsive image"></img>
-      <img src={require("../../Images/insta.png")} class="img-fluid img-icon" alt="Responsive image"></img>
-      {/* <img src={require("../../Images/youtube.png")} class="img-fluid img-icon" alt="Responsive image"></img> */}
       </div>
-  
-      <hr style={{width:"100% ", opacity:"1"}}></hr>
+      
+      <div className ="circle">
+      <img src={require("../../Images/twit.png")} class="img-fluid img-icon " alt="Responsive image"></img>
+     </div>
+
+      <div className ="circle">
+      <img src={require("../../Images/insta.png")} class="img-fluid img-icon" alt="Responsive image"></img>
+      </div>
+
+      <div className ="circle">
+       <img src={require("../../Images/youtube.png")} class="img-fluid img-icon" alt="Responsive image"></img>  
+       </div>
+      </div>
+
+      <hr style={{width:"90% ", opacity:"1"}}></hr>
 
       <div className="bottom-box d-flex flex-row">
-        <div className="text-style">
-       <p>Term & Condition</p> 
-      <p style={{marginLeft:"1rem"}} >Privacy & Policy</p>
-      </div>
       <div  className="right-reserved-styling">
-      <p>	&copy; 2022 All right reserved.</p>
+      <p>	&copy; 2022 All rights reserved.</p>
       </div>
       </div>
       </div>
       </div>
+    
 
 
       </footer>

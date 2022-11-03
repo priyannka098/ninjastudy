@@ -86,12 +86,16 @@
     }
 
     .heading-box1{
-        padding: 1.5rem 1.5rem 1.5rem 0rem;
+        padding: 2.2rem 1.5rem 1.5rem 0rem;
         text-align: start!important;
         
     }
     .faq-outerbox1{
         width: 100%;
+    }
+
+    .faq-outlier{
+        width:100%;
     }
 }
 
