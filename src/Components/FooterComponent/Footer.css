@@ -177,8 +177,9 @@ margin-bottom: 0.8rem;
     
     .footer-box3{
         margin-top:0rem!important;
-        
-    }.footer-box4{
+        margin-left: 0 !important;
+    }
+    .footer-box4{
         margin-top:0rem!important;
     
     }
@@ -215,6 +216,27 @@ margin-bottom: 0.8rem;
 
 
 }
+@media only screen and (max-width: 1300px) {
+
+    .footer-big{
+        display:none;
+    }
+    .footer-small{
+        display:flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .footer-box4{
+        width: auto;
+}
+.footer-box3{
+    margin-top:0rem!important;
+    margin-left: 5rem;
+}
+}
+
+
+
 
 
 

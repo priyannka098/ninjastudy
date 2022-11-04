@@ -46,9 +46,9 @@ li.bullet{
 .c-heading-small{
     display:none;
 }
-.heading-small{
-    display:none;
-}
+ /* img.mobile-shadow{
+    box-shadow: 7px 7px 1px grey; */
+ 
 
 .arya-small{
     display: none;
@@ -65,13 +65,34 @@ li.bullet{
     display: none;
 }
 
+.content-scope-firstbox {
+height:45rem;
+}
+.apple-img{
+    display:none;
+}
+
 @media only screen and (max-width: 800px) {
+
+    .content-scope-firstbox {
+        height:52rem !important;
+    }
+    .apple-img{
+        display:block;
+        height:3rem;
+        width:8.5rem; 
+    }
     .show-in-big-hide-in-small{
         display: none;
     }
     
     .hide-in-big-show-in-small{
         display: block;
+    }
+
+    .content-context{
+     display: block;
+     text-align: center;
     }
 .mobile-img {display: none;}
 .play-button{display: none;}
@@ -96,7 +117,7 @@ li.bullet{
     display: block;
 }
 .smallspace{
-    margin-top: 2rem;
+    margin-top: 1rem;
 }
 
 .mobile-img-small{
@@ -118,7 +139,7 @@ li.bullet{
     display: flex ;
     flex-direction: row;
     justify-content: center !important;
-    width: 70%;
+    width: 90% !important;
     margin-bottom: 1rem !important;
     margin-top: 0 !important;
 }
@@ -131,6 +152,8 @@ li.bullet{
     font-size:1.8rem !important;
     font-weight:640;
     font-family: 'Inter';
+    display: block;
+    text-align: center;
 
 }
 .bullets-div-small{
@@ -178,14 +201,14 @@ li.bullet{
 
 .mobile-img {
     width:19.0rem;
-    height:33rem;
+    height:32rem;
 }
 
 .mobile-img-small{
     display: none;
-    width: 16rem;
-    height: 25rem;
-    /* margin-top: 1.5rem; */
+    width: 17rem;
+    height: 29rem;
+    margin-top: 1rem;
 }
 .firstflexbox{
     display:flex;

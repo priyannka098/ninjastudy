@@ -81,8 +81,12 @@ return(
             </div>
             </form>
         </div>
+        {/* for mobile queries */}
+        
 
         <div className="form-small">
+            <form
+       onSubmit={handleSubmit} >
             
                     <div className="d-flex flex-column"> 
                         <label for="name" className="input-text-style">Enter your name:</label>
@@ -92,16 +96,18 @@ return(
                     <div className="d-flex flex-column" style={{marginTop:"1rem"}}> 
                         <label for="email">Enter your email:</label>
                         <input type="text" className="input-box" id="email"  placeholder="  Your Email"
-                        onChange={(e)=>setName(e.target.value)} value={name}/>
+                        onChange={(e)=>setEmail(e.target.value)} value={email}/>
                     </div>
                 <div className="textarea-div">
                 <label for="textarea">Enter the message:</label>
                 <textarea id="textarea" className="textarea1" name="textarea" rows="3" placeholder="Message" 
-                 onChange={(e)=>setName(e.target.value)} value={name}></textarea> 
+                 onChange={(e)=>setMessage(e.target.value)} value={message}></textarea> 
                 </div>
                 <div className="submit-bottom">
                 <button type="submit" className="btn btn-dark submit-btn submit-btn-small">Submit</button>
                 </div>
+                </form>
+             
         </div>
         <div className="ask-image">
         <img src={require("../../Images/Queries.png")} class="img-fluid queries-img"  alt="Responsive image"></img>

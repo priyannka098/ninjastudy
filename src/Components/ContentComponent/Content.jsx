@@ -7,7 +7,7 @@ function Content()
    <>
 
    {/* First Box */}
-    <div className="container-fluid bg-color-first content-scope text-light p-5 firstflexbox">
+    <div className="container-fluid bg-color-first content-scope-firstbox text-light p-5 firstflexbox">
       <div className=" secondflexbox">
         <span className="display-4  font-weight-bold content-context smallspace" style={{marginBottom:"0rem"}}>Learn English</span>
         <span className="display-4  font-weight-bold content-context" style={{}}> Speaking </span>
@@ -22,13 +22,15 @@ function Content()
         <span className="banner">*Limited Time Offer for Early Users Only</span>
         </div>
         <div className="buttons-div">
+        <img src={require("../../Images/apple-img-store.png")} class="img-fluid apple-img " alt="Responsive image"></img>
+
         <img src={require("../../Images/gplay.png")} class="img-fluid gplay-img " alt="Responsive image"></img>
                 <button type="button" className="btn btn-primary play-button">
                 <svg xmlns="http://www.w3.org/2000/svg" width="30" height="20" fill="currentColor" className="bi bi-play-fill" viewBox="0 0 16 16">
   <path d="m11.596 8.697-6.363 3.692c-.54.313-1.233-.066-1.233-.697V4.308c0-.63.692-1.01 1.233-.696l6.363 3.692a.802.802 0 0 1 0 1.393z"></path>
 </svg>  Play video </button>
         </div>
-        <img src={require("../../Images/home.gif")} class="img-fluid mobile-img-small" alt="Responsive image"></img>
+        <img src={require("../../Images/home.gif")} class="img-fluid mobile-img-small " alt="Responsive image"></img>
 
         </div>
       <div>
@@ -81,7 +83,7 @@ function Content()
             </ul>
        
        </div>
-       <img src={require("../../Images/arya.gif")} class="img-fluid mobile-img-small" alt="Responsive image"></img>
+       <img src={require("../../Images/arya.gif")} class="img-fluid mobile-img-small   " alt="Responsive image"></img>
         </div>
         </div>
 
