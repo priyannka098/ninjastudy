@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/ninjastudy/static/css/main.c01b587d.css",
-    "main.js": "/ninjastudy/static/js/main.614a15d4.js",
+    "main.css": "/ninjastudy/static/css/main.cbf7ebe6.css",
+    "main.js": "/ninjastudy/static/js/main.72ccb7a3.js",
     "static/media/translate.gif": "/ninjastudy/static/media/translate.7c7564d207166fb321e0.gif",
     "static/media/home.gif": "/ninjastudy/static/media/home.e19026e44cc625aefcde.gif",
     "static/media/score.gif": "/ninjastudy/static/media/score.855942bff16a90b16fed.gif",
@@ -12,17 +12,18 @@
     "static/media/faq-image.png": "/ninjastudy/static/media/faq-image.8dfb91a80d3be251c320.png",
     "static/media/Queries.png": "/ninjastudy/static/media/Queries.5df1557d94dd5b02c92d.png",
     "static/media/insta.png": "/ninjastudy/static/media/insta.b5a8baad084ce6a94cbc.png",
+    "static/media/apple-img-store.png": "/ninjastudy/static/media/apple-img-store.2a8f2a38110b76832fb2.png",
     "static/media/youtube.png": "/ninjastudy/static/media/youtube.b4cd85200245f6adbd47.png",
     "static/media/logo.png": "/ninjastudy/static/media/logo.1dc3262559521d924c15.png",
     "static/media/revicons.eot": "/ninjastudy/static/media/revicons.a77de540a38981833f9e.eot",
     "static/media/revicons.ttf": "/ninjastudy/static/media/revicons.57fd05d4ae650374c8de.ttf",
     "static/media/revicons.woff": "/ninjastudy/static/media/revicons.e8746a624ed098489406.woff",
     "index.html": "/ninjastudy/index.html",
-    "main.c01b587d.css.map": "/ninjastudy/static/css/main.c01b587d.css.map",
-    "main.614a15d4.js.map": "/ninjastudy/static/js/main.614a15d4.js.map"
+    "main.cbf7ebe6.css.map": "/ninjastudy/static/css/main.cbf7ebe6.css.map",
+    "main.72ccb7a3.js.map": "/ninjastudy/static/js/main.72ccb7a3.js.map"
   },
   "entrypoints": [
-    "static/css/main.c01b587d.css",
-    "static/js/main.614a15d4.js"
+    "static/css/main.cbf7ebe6.css",
+    "static/js/main.72ccb7a3.js"
   ]
 }
