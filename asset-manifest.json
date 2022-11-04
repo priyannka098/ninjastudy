@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/ninjastudy/static/css/main.0e465550.css",
+    "main.css": "/ninjastudy/static/css/main.fc03d7a4.css",
     "main.js": "/ninjastudy/static/js/main.85e8b4fc.js",
     "static/media/translate.gif": "/ninjastudy/static/media/translate.7c7564d207166fb321e0.gif",
     "static/media/home.gif": "/ninjastudy/static/media/home.e19026e44cc625aefcde.gif",
@@ -19,11 +19,11 @@
     "static/media/revicons.ttf": "/ninjastudy/static/media/revicons.57fd05d4ae650374c8de.ttf",
     "static/media/revicons.woff": "/ninjastudy/static/media/revicons.e8746a624ed098489406.woff",
     "index.html": "/ninjastudy/index.html",
-    "main.0e465550.css.map": "/ninjastudy/static/css/main.0e465550.css.map",
+    "main.fc03d7a4.css.map": "/ninjastudy/static/css/main.fc03d7a4.css.map",
     "main.85e8b4fc.js.map": "/ninjastudy/static/js/main.85e8b4fc.js.map"
   },
   "entrypoints": [
-    "static/css/main.0e465550.css",
+    "static/css/main.fc03d7a4.css",
     "static/js/main.85e8b4fc.js"
   ]
 }
