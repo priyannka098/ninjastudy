@@ -5,7 +5,9 @@
     margin-top:14.5865rem; */
     display: flex;
     align-items: center;
-    width:30%;
+     /* width:30%;         recently
+     */
+    width:15rem;
 }
 .font-height{
     font-size:3rem;
