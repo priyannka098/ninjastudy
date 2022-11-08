@@ -29,7 +29,7 @@ li.bullet{
 
 }
 .content-context{
-    font-weight:700;
+    font-weight:750;
  font-family: 'Inter'; 
  font-style:normal; 
 }
@@ -76,6 +76,11 @@ height:40rem;
 
     .content-scope-firstbox {
         height:52rem !important;
+    }
+
+    .content-scope{
+        height:45rem !important;
+    
     }
     /* .apple-img{
         display:block;
@@ -138,8 +143,15 @@ height:40rem;
     align-items: center;
 }
 
+.home-style{
+    padding-top:1rem!important;
+    align-items: center;
+    justify-content: center;
+}
+
 .firstflexbox{
     padding-top: 0.5rem !important;
+    justify-content: center !important;
 }
 
 
@@ -234,11 +246,19 @@ height:40rem;
 .secondflexbox{
     display:flex;
     flex-direction: column;
-    align-items: center;
+    /* align-items: center; */
     justify-content: center;
     /* height:100%;
     padding-top:4rem; */
 
+}
+.home-style{
+    display:flex;
+    flex-direction: column;
+    /* align-items: center;
+    justify-content: center; */
+     height:100%;
+    padding-top:4rem;
 }
 .style-text{
     margin-right:50px;
@@ -275,12 +295,11 @@ li.bullet::marker {
     font-weight:620;
 }
 .content-text{
-    height:80%;
 
 }
 
 @media only screen and (max-width: 450px) {
     .content-scope{
-        /* height:49rem; */
+         height:49rem;
     }
 }

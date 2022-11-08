@@ -8,7 +8,7 @@ function Content()
 
    {/* First Box */}
     <div className="container-fluid bg-color-first content-scope-firstbox text-light p-5 firstflexbox">
-      <div className=" secondflexbox">
+      <div className=" home-style">
         <span className="display-4  font-weight-bold content-context smallspace" style={{marginBottom:"0rem"}}>Learn English</span>
         <span className="display-4  font-weight-bold content-context"> Speaking </span>
         <span className="display-4  font-weight-bold content-context" style={{marginBottom:"0rem"}}>The Fastest Way</span>
