@@ -95,7 +95,7 @@ button {
 }
 
 
-@media only screen and (max-width: 821px) {
+@media only screen and (max-width: 800px) {
 
   .st-btn{
     font-size: 1.0rem !important;
@@ -107,7 +107,7 @@ button {
   .title-styling{
 
     text-align: center;
-    /* font-size: 1.8rem !important; */
+    font-size: 1.8rem !important;
      margin-top: 0rem; /* temp */
   }
   .bg-color-feedback{
