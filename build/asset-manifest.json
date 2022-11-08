@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/ninjastudy/static/css/main.8002eb29.css",
-    "main.js": "/ninjastudy/static/js/main.89388d57.js",
+    "main.css": "/ninjastudy/static/css/main.b4deff9c.css",
+    "main.js": "/ninjastudy/static/js/main.ade1b264.js",
     "static/media/translate.gif": "/ninjastudy/static/media/translate.7c7564d207166fb321e0.gif",
     "static/media/home.gif": "/ninjastudy/static/media/home.e19026e44cc625aefcde.gif",
     "static/media/score.gif": "/ninjastudy/static/media/score.855942bff16a90b16fed.gif",
@@ -20,11 +20,11 @@
     "static/media/revicons.woff": "/ninjastudy/static/media/revicons.e8746a624ed098489406.woff",
     "index.html": "/ninjastudy/index.html",
     "static/media/WorkSans-VariableFont_wght.ttf": "/ninjastudy/static/media/WorkSans-VariableFont_wght.31d6cfe0d16ae931b73c.ttf",
-    "main.8002eb29.css.map": "/ninjastudy/static/css/main.8002eb29.css.map",
-    "main.89388d57.js.map": "/ninjastudy/static/js/main.89388d57.js.map"
+    "main.b4deff9c.css.map": "/ninjastudy/static/css/main.b4deff9c.css.map",
+    "main.ade1b264.js.map": "/ninjastudy/static/js/main.ade1b264.js.map"
   },
   "entrypoints": [
-    "static/css/main.8002eb29.css",
-    "static/js/main.89388d57.js"
+    "static/css/main.b4deff9c.css",
+    "static/js/main.ade1b264.js"
   ]
 }

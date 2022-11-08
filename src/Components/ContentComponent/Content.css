@@ -303,3 +303,9 @@ li.bullet::marker {
          height:49rem;
     }
 }
+
+@media only screen and (max-width: 870px) {
+    .play-button{
+         font-size: 1rem;
+    }
+}
