@@ -24,18 +24,19 @@ code {
 /* for inter font */
 @font-face {
   font-family: "Inter";
-  src: url("./Fonts/Inter-VariableFont_slnt_wght.ttf") format("truetype"),
-       url("./Fonts/Inter-VariableFont_slnt_wght.svg#Inter-Regular") format("svg"),
-       url("./Fonts/Inter-VariableFont_slnt_wght.woff2") format("woff2");
+  src:url("./Fonts/Inter-VariableFont_slnt_wght.ttf") format("truetype"),
+      url("./Fonts/Inter-VariableFont_slnt_wght.woff2") format("woff2"),
+      url("./Fonts/Inter-VariableFont_slnt_wght.svg#Inter-Regular") format("svg");
+      font-weight:450;
 }
 .local-font {
   font-family: "Inter";
 }
 /* for work-sans font */
-@font-face {
+/* @font-face {
   font-family: "WorkSans";
   src: local("WorkSans"), url("./Fonts/WorkSans-VariableFont_wght.ttf") format("truetype");
-}
+} */
 
 
 
