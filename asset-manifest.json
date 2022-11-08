@@ -1,10 +1,11 @@
 {
   "files": {
-    "main.css": "/ninjastudy/static/css/main.2e1f1d58.css",
-    "main.js": "/ninjastudy/static/js/main.85e8b4fc.js",
+    "main.css": "/ninjastudy/static/css/main.8002eb29.css",
+    "main.js": "/ninjastudy/static/js/main.89388d57.js",
     "static/media/translate.gif": "/ninjastudy/static/media/translate.7c7564d207166fb321e0.gif",
     "static/media/home.gif": "/ninjastudy/static/media/home.e19026e44cc625aefcde.gif",
     "static/media/score.gif": "/ninjastudy/static/media/score.855942bff16a90b16fed.gif",
+    "static/media/download-img.png": "/ninjastudy/static/media/download-img.953d7c8504ea49bab874.png",
     "static/media/arya.gif": "/ninjastudy/static/media/arya.9fcb31142e49c32710c6.gif",
     "static/media/Inter-VariableFont_slnt_wght.ttf": "/ninjastudy/static/media/Inter-VariableFont_slnt_wght.aadb65ac45347ff46699.ttf",
     "static/media/Outfit-VariableFont_wght.ttf": "/ninjastudy/static/media/Outfit-VariableFont_wght.bc779fb16a97a6842a72.ttf",
@@ -12,18 +13,18 @@
     "static/media/faq-image.png": "/ninjastudy/static/media/faq-image.8dfb91a80d3be251c320.png",
     "static/media/Queries.png": "/ninjastudy/static/media/Queries.5df1557d94dd5b02c92d.png",
     "static/media/insta.png": "/ninjastudy/static/media/insta.b5a8baad084ce6a94cbc.png",
-    "static/media/apple-img-store.png": "/ninjastudy/static/media/apple-img-store.2a8f2a38110b76832fb2.png",
     "static/media/youtube.png": "/ninjastudy/static/media/youtube.b4cd85200245f6adbd47.png",
     "static/media/logo.png": "/ninjastudy/static/media/logo.1dc3262559521d924c15.png",
     "static/media/revicons.eot": "/ninjastudy/static/media/revicons.a77de540a38981833f9e.eot",
     "static/media/revicons.ttf": "/ninjastudy/static/media/revicons.57fd05d4ae650374c8de.ttf",
     "static/media/revicons.woff": "/ninjastudy/static/media/revicons.e8746a624ed098489406.woff",
     "index.html": "/ninjastudy/index.html",
-    "main.2e1f1d58.css.map": "/ninjastudy/static/css/main.2e1f1d58.css.map",
-    "main.85e8b4fc.js.map": "/ninjastudy/static/js/main.85e8b4fc.js.map"
+    "static/media/WorkSans-VariableFont_wght.ttf": "/ninjastudy/static/media/WorkSans-VariableFont_wght.31d6cfe0d16ae931b73c.ttf",
+    "main.8002eb29.css.map": "/ninjastudy/static/css/main.8002eb29.css.map",
+    "main.89388d57.js.map": "/ninjastudy/static/js/main.89388d57.js.map"
   },
   "entrypoints": [
-    "static/css/main.2e1f1d58.css",
-    "static/js/main.85e8b4fc.js"
+    "static/css/main.8002eb29.css",
+    "static/js/main.89388d57.js"
   ]
 }
