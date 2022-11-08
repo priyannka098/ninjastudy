@@ -5,13 +5,14 @@ function Navbar()
 
  return(
 
-<nav className="navbar navbar-expand-lg navbar-light bg-light">
+<nav className="navbar navbar-expand-lg navbar-light bg-light navbar-bg ">
   <div className="container-fluid">
   <div className="navbar-logo-box">
+    
    <img src={require("../../Images/ninja-logo.png")} className="img-fluid navbar-logo-img" alt="Responsive image"></img>
-   <img src={require("../../Images/navbar-text2.png")} className="img-fluid navbar-text" alt="Responsive image"></img> 
+    {/* <img src={require("../../Images/navbar-text2.png")} className="img-fluid navbar-text" alt="Responsive image"></img>  */}
    
-    {/* < span className="navbar-brand"><b style={{color:"purple"}}>ninjastudy</b></span > */}
+    <div className="navbar-brand"><b style={{color:"white"}}>ninjastudy</b></div >
     </div>
     <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span className="navbar-toggler-icon"></span>

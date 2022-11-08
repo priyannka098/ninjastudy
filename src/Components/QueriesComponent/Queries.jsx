@@ -72,7 +72,7 @@ return(
                 <div className="textarea-div">
                 <label for="message">Enter the message:</label>
             
-                <textarea id="message"  name=" textarea" className="textarea1" rows="3" placeholder="Your Message"
+                <textarea id="message"  name=" textarea" className="textarea1" rows="2" placeholder="Type your Message"
                  onChange={(e)=>setMessage(e.target.value)} value={message}></textarea>
                 </div>
                 <div className="submit">
@@ -100,7 +100,7 @@ return(
                     </div>
                 <div className="textarea-div">
                 <label for="textarea">Enter the message:</label>
-                <textarea id="textarea" className="textarea1" name="textarea" rows="3" placeholder="Message" 
+                <textarea id="textarea" className="textarea1" name="textarea" rows="3" placeholder=" Type your message" 
                  onChange={(e)=>setMessage(e.target.value)} value={message}></textarea> 
                 </div>
                 <div className="submit-bottom">

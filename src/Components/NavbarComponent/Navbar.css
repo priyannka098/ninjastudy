@@ -1,15 +1,24 @@
 .navbar-bg {
-    background-color: white !important;
+    background-color: #6263D5!important;
 }
 
 .nav-in {
-    background-color: white;
+    background-color: #6263D5 !important;
 }
 .navbar-text{
     width:7rem;
     height:2.4rem;
     margin-left:.5rem;
 
+}
+.navbar-brand{
+     color: white;
+    /* font-family: 'WorkSans'; */
+
+    font-size: 1.5rem;
+    font-family: 'Inter';
+    margin-left:0.4rem;
+    
 }
 
 .remove-flex-grow{
@@ -23,11 +32,12 @@
 }
 .navbar-logo-img{
     height:2.5rem;
-    
+    margin-top: 0.3rem; 
 
 }
 .navbar-logo-box{
    margin-left:10rem; 
+   display:flex;
 }
 .navbar-property-box{
     margin-left: 22rem;
@@ -46,12 +56,16 @@
 }
 
 .nav-item-colour{
-    color:black;
-    /* font-family:inter; */
+    color:white;
+    font-family: 'Inter';
+    font-weight: 500;
+    font-size: 15px;
+    
 }
 .button-styling{
 font-size:.8rem;
 font-weight:600;
+font-family: 'inter';
 background-color: #FBD92D;
 }
 
@@ -59,6 +73,9 @@ background-color: #FBD92D;
 
 .navbar-logo-box{
     margin-left: 0.2rem;;
+}
+.navbar-toggler{
+border: none !important;
 }
 
 }

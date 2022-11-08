@@ -29,6 +29,14 @@ code {
 .local-font {
   font-family: "Inter";
 }
+/* for work-sans font */
+@font-face {
+  font-family: "WorkSans";
+  src: local("WorkSans"), url("./Fonts/WorkSans-VariableFont_wght.ttf") format("truetype");
+}
+.local-font {
+  font-family: "Work Sans";
+}
 
 
 

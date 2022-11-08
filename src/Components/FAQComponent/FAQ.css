@@ -54,9 +54,9 @@
 
 }
 .accor-body{
-    background-color: rgb(112, 112, 231);
+    background-color:  #EFEFFB;
     /* height:10rem; */
-    color:white;
+    color:black;
     font-family: 'Inter';
     font-size: 0.9rem;
     font-weight: 300;
@@ -66,8 +66,8 @@
 }
 
 .accor-head{
-    --bs-accordion-active-bg: rgb(112, 112, 231);
-    --bs-accordion-active-color: white;
+    --bs-accordion-active-bg:  #EFEFFB;
+    --bs-accordion-active-color: black;
     color:black;
     border:1px solid rgb(228, 214, 214);
     height: 5rem;
@@ -79,7 +79,7 @@
 
 .accor-item{
     margin-bottom: 1rem;
-    background-color: rgb(112, 112, 231);
+    background-color:  #EFEFFB;
 }
 
 @media only screen and (max-width: 800px) {
@@ -88,8 +88,9 @@
     }
 
     .heading-box1{
-        padding: 2.2rem 1.5rem 1.5rem 0rem;
-        text-align: start!important;
+        padding: 2.2rem 0rem .8rem 0rem;
+        text-align: center!important;
+       
         
     }
     .faq-outerbox1{

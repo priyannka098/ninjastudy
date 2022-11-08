@@ -6,7 +6,7 @@
 }
 
 .bg-color-feedback{
-    background-color: rgb(210, 217, 226);
+    background-color: #EFEFFB;
     height:42rem;
     width:100%;
     display: flex;
@@ -105,12 +105,13 @@ button {
       margin-top: 0rem !important;
   }
   .title-styling{
-    
+
+    text-align: center;
     font-size: 1.8rem !important;
-     margin-top: 1rem; /* temp */
+     margin-top: 0rem; /* temp */
   }
   .bg-color-feedback{
-    background-color: #D9D9FF;
+    background-color:  #EFEFFB;;
     height:40rem;
     width:100%;
   }
@@ -127,7 +128,7 @@ button {
   font-weight:500;
 }
 .feedback-heading-box{
-  padding: 2rem 2rem 2rem 0rem;
+  padding: 2rem 0rem 2rem 0rem;
   justify-content: left;
 }
 

@@ -10,25 +10,26 @@ function Content()
     <div className="container-fluid bg-color-first content-scope-firstbox text-light p-5 firstflexbox">
       <div className=" secondflexbox">
         <span className="display-4  font-weight-bold content-context smallspace" style={{marginBottom:"0rem"}}>Learn English</span>
-        <span className="display-4  font-weight-bold content-context" style={{}}> Speaking </span>
+        <span className="display-4  font-weight-bold content-context"> Speaking </span>
         <span className="display-4  font-weight-bold content-context" style={{marginBottom:"0rem"}}>The Fastest Way</span>
         <span className="text-left top-space-50 text-font arya-big">Practice English with ARYA -The Smartest A.I. English Tutor</span>
+        <div className="small-para">
         <span className="text-left top-space-50 text-font arya-small">ARYA -The Smartest A.I. English Tutor</span>
-        <br></br>
-        <div className="promotion d-flex flex-column">
-        <div style={{display:"flex"}}>
-        <span style={{textDecorationLine:"line-through",fontSize:"1.2rem"}} >&#8377; 200/Month </span><span style={{marginLeft:"0.5rem"}}><strong style={{fontSize:"1.2rem",fontWeight:"500"}}> Free*</strong></span>
-        </div> 
-        <span className="banner">*Limited Time Offer for Early Users Only</span>
         </div>
+        <br></br>
+        {/* <div className="promotion d-flex flex-column"> */}
+        {/* <div style={{display:"flex"}}>
+        <span style={{textDecorationLine:"line-through",fontSize:"1.2rem"}} >&#8377; 200/Month </span><span style={{marginLeft:"0.5rem"}}><strong style={{fontSize:"1.2rem",fontWeight:"500"}}> Free*</strong></span>
+        </div>  */}
+        {/* <span className="banner">*Limited Time Offer for Early Users Only</span>
+        </div> */}
         <div className="buttons-div">
-        <img src={require("../../Images/apple-img-store.png")} class="img-fluid apple-img " alt="Responsive image"></img>
 
         <img src={require("../../Images/gplay.png")} class="img-fluid gplay-img " alt="Responsive image"></img>
                 <button type="button" className="btn btn-primary play-button">
                 <svg xmlns="http://www.w3.org/2000/svg" width="30" height="20" fill="currentColor" className="bi bi-play-fill" viewBox="0 0 16 16">
   <path d="m11.596 8.697-6.363 3.692c-.54.313-1.233-.066-1.233-.697V4.308c0-.63.692-1.01 1.233-.696l6.363 3.692a.802.802 0 0 1 0 1.393z"></path>
-</svg>  Play video </button>
+</svg>Play video </button>
         </div>
         <img src={require("../../Images/home.gif")} class="img-fluid mobile-img-small " alt="Responsive image"></img>
 
@@ -77,7 +78,7 @@ function Content()
          {/* for small bullent points */}
 
           {/* <div className="bullet-text-small"> */}
-         <ul className="text muted top-space-50 hide-in-big-show-in-small" >
+         <ul className="text muted  hide-in-big-show-in-small" >
             <li className="bullet">Direct Feedback</li>
             <li className="bullet">Varied topics of interest</li>
             </ul>

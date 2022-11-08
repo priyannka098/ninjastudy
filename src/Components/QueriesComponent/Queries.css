@@ -1,6 +1,6 @@
 .bg-color-fifth{
-    background-color: rgb(210, 217, 226);
-    height:32rem;
+    background-color: #EFEFFB;
+    height:28rem;
     width:100%;
 }
 .queries-parent{
@@ -21,6 +21,10 @@
     padding:2rem;
     font-weight:645;
 }
+::placeholder{
+    color: #BDBDBD;
+
+}
 .heading-box2{
     padding: 3rem;
     justify-content: center;
@@ -40,16 +44,19 @@ margin-top: 2rem;
 .input-box{
     height: 3rem;
     border-radius: 5px;
-    border: 1px solid #333333;;
-    background-color: rgb(210, 217, 226);
+    border: 1px solid #333333;
+    background-color:  #EFEFFB;
+    color:#BDBDBD; ;
     padding: 8px;
     margin-top:0.9rem;
 }
+
+
 .textarea1
 {
     border-radius: 5px;
     border: 1px solid  #333333;;
-    background-color: rgb(210, 217, 226);
+    background-color:  #EFEFFB;
     padding: 8px;
     width: 100%;
     margin-top: 0.9rem;
@@ -117,6 +124,11 @@ margin-top: 2rem;
         font-size: 1.8rem !important;
     
       }
+      .bg-color-fifth{
+    
+        height: 32rem !important;
+    
+    }
       .textarea1{
         margin-top: 0rem;
       }
@@ -124,11 +136,16 @@ margin-top: 2rem;
     .query-title-space{
         margin-left: 0rem!important;
     }
+    .heading-box1{
+        display: flex;
+        justify-content: center;
+        align-items:center;
+    }
 
     .heading-box2{
        flex-direction:column!important;
        padding: 0rem!important;
-       align-items: flex-start;
+       align-items: center;
        margin-top:1.8rem;
     
      }
